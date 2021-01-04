@@ -8,123 +8,19 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>Fake Sensor</string>
+				<string>SSDT Hack</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>SSDT-ALS0.aml</string>
+				<string>SSDT-Asus Vivobook.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Return original APSS on non-Darwin</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-APSS.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Use ATKD keyboard features</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-ATKD.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Enable battery reading</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-Battery.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>fake EC device \ Inject USB power</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-EC-USBX.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Optimize fan</string>
+				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
 				<string>SSDT-FAN-MOD.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Fix sleep</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-GPRW.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Disable HPET</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-HPET.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Enable FMCN and SSCN on SKL touchpad model</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-I2C1_USTP.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Allow ACPI objects to be enabled on Darwin</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-OSYS.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Enable XCPM</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-PLUG.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Enable brightness control</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-PNLF-SKL_KBL.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Add SMBus compatibility</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-SBUS-MCHC.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Add Device</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-SRAM.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Swap cmd and opt keys</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-Swap-CommandOption.aml</string>
 			</dict>
 		</array>
 		<key>Delete</key>
@@ -948,7 +844,7 @@
 				<key>BundlePath</key>
 				<string>SMCLightSensor.kext</string>
 				<key>Comment</key>
-				<string></string>
+				<string>Light Sensor</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
