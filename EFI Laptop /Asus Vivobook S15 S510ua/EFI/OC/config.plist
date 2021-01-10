@@ -22,6 +22,14 @@
 				<key>Path</key>
 				<string>SSDT-FAN-MOD.aml</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-OSYS.aml</string>
+			</dict>
 		</array>
 		<key>Delete</key>
 		<array/>
@@ -211,6 +219,110 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>ATK: Rename Method(_Q6C,0,NS) to XQ6C</string>
+				<key>Count</key>
+				<integer>1</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>X1E2Qw==</data>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>OemTableId</key>
+				<data>AAAAAAAAAAA=</data>
+				<key>Replace</key>
+				<data>WFE2Qw==</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+				<key>TableLength</key>
+				<integer>0</integer>
+				<key>TableSignature</key>
+				<data></data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>ATK: Rename Method(_Q6D,0,NS) to XQ6D</string>
+				<key>Count</key>
+				<integer>1</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>X1E2RA==</data>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>OemTableId</key>
+				<data>AAAAAAAAAAA=</data>
+				<key>Replace</key>
+				<data>WFE2RA==</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+				<key>TableLength</key>
+				<integer>0</integer>
+				<key>TableSignature</key>
+				<data></data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>ATK: Rename Method(_Q6E,0,NS) to XQ6E</string>
+				<key>Count</key>
+				<integer>1</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>X1E2RQ==</data>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>OemTableId</key>
+				<data>AAAAAAAAAAA=</data>
+				<key>Replace</key>
+				<data>WFE2RQ==</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+				<key>TableLength</key>
+				<integer>0</integer>
+				<key>TableSignature</key>
+				<data></data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>ATK: Rename Method(_Q6F,0,NS) to XQ6F</string>
+				<key>Count</key>
+				<integer>1</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>X1E2Rg==</data>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>OemTableId</key>
+				<data>AAAAAAAAAAA=</data>
+				<key>Replace</key>
+				<data>WFE2Rg==</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+				<key>TableLength</key>
+				<integer>0</integer>
+				<key>TableSignature</key>
+				<data></data>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>Battery: Rename Method(BIFA,0) to Method(XBIF,0)</string>
 				<key>Count</key>
 				<integer>1</integer>
@@ -237,7 +349,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>(Battery) Rename Method(FBST,4) to Method(XBST,4)</string>
+				<string>Battery Rename Method(FBST,4) to Method(XBST,4)</string>
 				<key>Count</key>
 				<integer>0</integer>
 				<key>Enabled</key>
@@ -1141,6 +1253,8 @@
 			<false/>
 			<key>PickerMode</key>
 			<string>External</string>
+			<key>PickerVariant</key>
+			<string>Auto</string>
 			<key>PollAppleHotKeys</key>
 			<false/>
 			<key>ShowPicker</key>
