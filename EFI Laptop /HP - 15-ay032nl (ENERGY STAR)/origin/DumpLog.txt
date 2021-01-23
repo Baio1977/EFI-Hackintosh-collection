@@ -1,0 +1,86 @@
+59:697  4:826  Found UEFI Acpi 2.0 RSDP at %p
+59:697  0:000  Saving ACPI tables from RSDP %p to å’â„å‘â’ä ºå…ä•Éêƒ„ç«½$ ...
+59:697  0:000   %p: 'RSD PTR :HPQOEMÄ ýz$', Rev: 1657287111 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+59:971  0:274    (Xsdt: %p, Rsdt: %p)
+59:971  0:000    %p: 'XSDT$', 'XSDT', Rev: 1657286935, Len: 1 -> XSDT.aml
+60:246  0:274    %p: 'RSDT¤', 'RSDT', Rev: 1657286935, Len: 1 -> RSDT.aml
+60:523  0:277    Tables in Xsdt: 32
+60:523  0:000    0. %p: 'FACPô', 'FACP', Rev: 1657286935, Len: 5 -> FACP.aml
+60:798  0:274        (Dsdt: 7AFB9000, Facs: 7AF6B000, XDsdt: 7afb9000, XFacs: 0)
+60:798  0:000        %p: 'DSDTE', 'DSDT', Rev: 1657286791, Len: 2 -> DSDT.aml
+61:120  0:322        %p: 'FACS@', Ver: 1657286955, Len: 2 -> FACS.aml
+61:394  0:274    1. %p: 'TCPA2', 'TCPA', Rev: 1657286935, Len: 2 -> TCPA.aml
+61:701  0:306    2. %p: 'UEFI6', 'UEFI', Rev: 1657286935, Len: 1 -> UEFI.aml
+61:978  0:277    3. %p: 'UEFIB', 'UEFI', Rev: 1657286935, Len: 1 -> UEFI.aml
+62:237  0:258    4. %p: 'SSDT·', 'SSDT', Rev: 1657286935, Len: 2 -> SSDT-0-INSYDE.aml
+62:494  0:257    5. %p: 'SSDTK', 'SSDT', Rev: 1657286935, Len: 2 -> SSDT-1-INSYDE.aml
+62:770  0:276    6. %p: 'TPM24', 'TPM2', Rev: 1657286935, Len: 3 -> TPM2.aml
+63:028  0:258    7. %p: 'SSDT·f', 'SSDT', Rev: 1657286935, Len: 1 -> SSDT-2-INSYDE.aml
+63:319  0:290    8. %p: 'MSDMU', 'MSDM', Rev: 1657286935, Len: 3 -> MSDM.aml
+63:587  0:268    9. %p: 'SSDT´T', 'SSDT', Rev: 1657286935, Len: 2 -> SSDT-3-INSYDE.aml
+63:921  0:333    10. %p: 'SSDT4*', 'SSDT', Rev: 1657286935, Len: 2 -> SSDT-4-INSYDE.aml
+64:171  0:249    11. %p: 'DBGP4', 'DBGP', Rev: 1657286935, Len: 1 -> DBGP.aml
+64:416  0:245    12. %p: 'DBG2T', 'DBG2', Rev: 1657286935, Len: 0 -> DBG2.aml
+64:666  0:249    13. %p: 'ASF!¥', 'ASF!', Rev: 1657286935, Len: 32 -> ASF!.aml
+64:915  0:249    14. %p: 'ASPT4', 'ASPT', Rev: 1657286935, Len: 7 -> ASPT.aml
+65:163  0:247    15. %p: 'BOOT(', 'BOOT', Rev: 1657286935, Len: 1 -> BOOT.aml
+65:410  0:246    16. %p: 'DBGP4', 'DBGP', Rev: 1657286935, Len: 1 -> DBGP.aml
+65:787  0:377    17. %p: 'HPET8', 'HPET', Rev: 1657286935, Len: 1 -> HPET.aml
+66:049  0:262    18. %p: 'LPIT”', 'LPIT', Rev: 1657286935, Len: 1 -> LPIT.aml
+66:314  0:264    19. %p: 'APIC¼', 'APIC', Rev: 1657286935, Len: 3 -> APIC.aml
+66:575  0:261    20. %p: 'MCFG<', 'MCFG', Rev: 1657286935, Len: 1 -> MCFG.aml
+66:837  0:261    21. %p: 'SSDTÔ', 'SSDT', Rev: 1657286935, Len: 1 -> SSDT-5-INSYDE.aml
+67:155  0:318    22. %p: 'SSDT§', 'SSDT', Rev: 1657286935, Len: 2 -> SSDT-6-INSYDE.aml
+67:417  0:262    23. %p: 'SSDTš', 'SSDT', Rev: 1657286935, Len: 2 -> SSDT-7-INSYDE.aml
+67:680  0:262    24. %p: 'SSDTý	', 'SSDT', Rev: 1657286935, Len: 2 -> SSDT-8-INSYDE.aml
+67:943  0:262    25. %p: 'SSDTI', 'SSDT', Rev: 1657286935, Len: 2 -> SSDT-9-INSYDE.aml
+68:207  0:264    26. %p: 'SSDTJ', 'SSDT', Rev: 1657286935, Len: 2 -> SSDT-10-INSYDE.aml
+68:472  0:265    27. %p: 'SSDTs', 'SSDT', Rev: 1657286935, Len: 2 -> SSDT-11-INSYDE.aml (Found hidden SSDT 7 pcs)
+68:787  0:314        * 2060076696: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1566  53 53 44 54 1E 06 00 00 02 C7 50 6D 52 65 66 00 Internal length = 1566 -> SSDT-x11_0-Cpu0Ist.aml
+69:049  0:261        * 2060072472: 'SSDT', 'ApIst', Rev: 2, Len: 1450  53 53 44 54 AA 05 00 00 02 D2 50 6D 52 65 66 00 Internal length = 1450 -> SSDT-x11_1-ApIst.aml
+69:332  0:283        * 2060074008: 'SSDT', 'Cpu0Cst', Rev: 2, Len: 895  53 53 44 54 7F 03 00 00 02 69 50 6D 52 65 66 00 Internal length = 895 -> SSDT-x11_2-Cpu0Cst.aml
+69:612  0:279        * 2060070296: 'SSDT', 'ApCst', Rev: 2, Len: 281  53 53 44 54 19 01 00 00 02 EE 50 6D 52 65 66 00 Internal length = 281 -> SSDT-x11_3-ApCst.aml
+69:893  0:281        * 1799295000: 'SSDT', 'Cpu0Hwp', Rev: 2, Len: 142  53 53 44 54 8E 00 00 00 02 2F 50 6D 52 65 66 00 Internal length = 142 -> SSDT-x11_4-Cpu0Hwp.aml
+70:229  0:335        * 1799456280: 'SSDT', 'ApHwp', Rev: 2, Len: 281  53 53 44 54 19 01 00 00 02 01 50 6D 52 65 66 00 Internal length = 281 -> SSDT-x11_5-ApHwp.aml
+70:503  0:273        * 1799455896: 'SSDT', 'HwpLvt', Rev: 2, Len: 304  53 53 44 54 30 01 00 00 02 89 50 6D 52 65 66 00 Internal length = 304 -> SSDT-x11_6-HwpLvt.aml
+70:777  0:273  
+70:777  0:000    28. %p: 'SSDTi', 'SSDT', Rev: 1657286935, Len: 1 -> SSDT-12-INSYDE.aml
+71:055  0:278    29. %p: 'DMAR¨', 'DMAR', Rev: 1657286935, Len: 1 -> DMAR.aml
+71:331  0:276    30. %p: 'FPDTD', 'FPDT', Rev: 1657286935, Len: 1 -> FPDT.aml
+71:613  0:281    31. %p: 'BGRT8', 'BGRT', Rev: 1657286935, Len: 1 -> BGRT.aml
+71:891  0:278    Tables in Rsdt: 32
+71:891  0:000    0. %p: 'FACPô', 'FACP', Rev: 1657286935, Len: 5
+71:891  0:000        (Dsdt: 7AFB9000, Facs: 7AF6B000, XDsdt: 7afb9000, XFacs: 0)
+71:891  0:000        %p: 'DSDTE', 'DSDT', Rev: 1657286791, Len: 2
+71:893  0:002        %p: 'FACS@', Ver: 1657286955, Len: 2
+71:893  0:000    1. %p: 'TCPA2', 'TCPA', Rev: 1657286935, Len: 2
+71:893  0:000    2. %p: 'UEFI6', 'UEFI', Rev: 1657286935, Len: 1
+71:893  0:000    3. %p: 'UEFIB', 'UEFI', Rev: 1657286935, Len: 1
+71:893  0:000    4. %p: 'SSDT·', 'SSDT', Rev: 1657286935, Len: 2
+71:893  0:000    5. %p: 'SSDTK', 'SSDT', Rev: 1657286935, Len: 2
+71:893  0:000    6. %p: 'TPM24', 'TPM2', Rev: 1657286935, Len: 3
+71:893  0:000    7. %p: 'SSDT·f', 'SSDT', Rev: 1657286935, Len: 1
+71:893  0:000    8. %p: 'MSDMU', 'MSDM', Rev: 1657286935, Len: 3
+71:893  0:000    9. %p: 'SSDT´T', 'SSDT', Rev: 1657286935, Len: 2
+71:893  0:000    10. %p: 'SSDT4*', 'SSDT', Rev: 1657286935, Len: 2
+71:893  0:000    11. %p: 'DBGP4', 'DBGP', Rev: 1657286935, Len: 1
+71:893  0:000    12. %p: 'DBG2T', 'DBG2', Rev: 1657286935, Len: 0
+71:893  0:000    13. %p: 'ASF!¥', 'ASF!', Rev: 1657286935, Len: 32
+71:893  0:000    14. %p: 'ASPT4', 'ASPT', Rev: 1657286935, Len: 7
+71:893  0:000    15. %p: 'BOOT(', 'BOOT', Rev: 1657286935, Len: 1
+71:893  0:000    16. %p: 'DBGP4', 'DBGP', Rev: 1657286935, Len: 1
+71:893  0:000    17. %p: 'HPET8', 'HPET', Rev: 1657286935, Len: 1
+71:893  0:000    18. %p: 'LPIT”', 'LPIT', Rev: 1657286935, Len: 1
+71:893  0:000    19. %p: 'APIC¼', 'APIC', Rev: 1657286935, Len: 3
+71:893  0:000    20. %p: 'MCFG<', 'MCFG', Rev: 1657286935, Len: 1
+71:893  0:000    21. %p: 'SSDTÔ', 'SSDT', Rev: 1657286935, Len: 1
+71:893  0:000    22. %p: 'SSDT§', 'SSDT', Rev: 1657286935, Len: 2
+71:893  0:000    23. %p: 'SSDTš', 'SSDT', Rev: 1657286935, Len: 2
+71:893  0:000    24. %p: 'SSDTý	', 'SSDT', Rev: 1657286935, Len: 2
+71:893  0:000    25. %p: 'SSDTI', 'SSDT', Rev: 1657286935, Len: 2
+71:893  0:000    26. %p: 'SSDTJ', 'SSDT', Rev: 1657286935, Len: 2
+71:893  0:000    27. %p: 'SSDTs', 'SSDT', Rev: 1657286935, Len: 2
+71:893  0:000    28. %p: 'SSDTi', 'SSDT', Rev: 1657286935, Len: 1
+71:893  0:000    29. %p: 'DMAR¨', 'DMAR', Rev: 1657286935, Len: 1
+71:893  0:000    30. %p: 'FPDTD', 'FPDT', Rev: 1657286935, Len: 1
+71:893  0:000    31. %p: 'BGRT8', 'BGRT', Rev: 1657286935, Len: 1

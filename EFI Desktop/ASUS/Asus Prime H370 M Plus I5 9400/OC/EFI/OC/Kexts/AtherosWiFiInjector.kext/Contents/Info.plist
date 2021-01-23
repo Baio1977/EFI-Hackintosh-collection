@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.nawcom.plist.AtherosWifFiInjector</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>AtherosWiFiInjector</string>
+	<key>CFBundlePackageType</key>
+	<string>KEXT</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.0.1</string>
+	<key>IOKitPersonalities</key>
+	<dict>
+		<key>Atheros Wireless LAN PCI</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.driver.AirPort.Atheros40</string>
+			<key>IOClass</key>
+			<string>AirPort_AtherosNewma40</string>
+			<key>IOMatchCategory</key>
+			<string>IODefaultMatchCategory</string>
+			<key>IONameMatch</key>
+			<array>
+				<string>pci168c,30</string>
+				<string>pci168c,2a</string>
+				<string>pci168c,13</string>
+				<string>pci168c,2b</string>
+				<string>pci168c,2e</string>
+				<string>pci168c,1014</string>
+				<string>pci106b,0086</string>
+				<string>pci168c,1c</string>
+				<string>pci168c,1a</string>
+				<string>pci168c,1b</string>
+				<string>pci168c,1d</string>
+				<string>pci168c,23</string>
+				<string>pci168c,24</string>
+				<string>pci168c,2d</string>
+			</array>
+			<key>IOProviderClass</key>
+			<string>IOPCIDevice</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
