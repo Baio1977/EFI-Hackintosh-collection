@@ -256,90 +256,145 @@
 	<dict>
 		<key>Add</key>
 		<dict>
-			<key>PciRoot(0x0)/Pci(0x14,0x0)</key>
+			<key>PciRoot(0x0)/Pci(0x0,0x0)</key>
 			<dict>
-				<key>acpi-wake-type</key>
-				<data>AQ==</data>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,0,0</string>
+				<key>device_type</key>
+				<string>Host bridge</string>
+				<key>model</key>
+				<string>Coffee Lake HOST and DRAM Controller</string>
 			</dict>
-			<key>PciRoot(0x0)/Pci(0x14,0x2)</key>
+			<key>PciRoot(0x0)/Pci(0x12,0x0)</key>
 			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,18,0</string>
 				<key>device_type</key>
 				<string>Signal processing controller</string>
 				<key>model</key>
-				<string>Intel Sunrise Point-LP Thermal subsystem</string>
+				<string>Cannon Point-LP Thermal Controller</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x14,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,20,0</string>
+				<key>device_type</key>
+				<string>USB controller</string>
+				<key>model</key>
+				<string>Cannon Point-LP USB 3.1 xHCI Controller</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x14,0x2)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,20,2</string>
+				<key>device_type</key>
+				<string>RAM memory</string>
+				<key>model</key>
+				<string>Cannon Point-LP Shared SRAM</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x15,0x0)</key>
 			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,21,0</string>
 				<key>device_type</key>
-				<string>Signal Processing Controller</string>
+				<string>I2C0 controller</string>
 				<key>model</key>
-				<string>Intel Sunrise Point-LP Serial IO I2C Controller #0</string>
+				<string>Cannon Point-LP Serial IO I2C0 Controller</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x15,0x1)</key>
 			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,21,1</string>
 				<key>device_type</key>
-				<string>Signal Processing Controller</string>
+				<string>I2C1 controller</string>
 				<key>model</key>
-				<string>Intel Sunrise Point-LP Serial IO I2C Controller #1</string>
+				<string>Cannon Point-LP Serial IO I2C1 Controller</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x16,0x0)</key>
 			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,22,0</string>
 				<key>device_type</key>
-				<string>Communication Controller</string>
+				<string>Communication controller</string>
 				<key>model</key>
-				<string>Intel Sunrise Point-LP CSME HECI #1</string>
+				<string>Cannon Point-LP IMEI Controller</string>
 			</dict>
-			<key>PciRoot(0x0)/Pci(0x1c,0x0)</key>
-			<dict>
-				<key>reg-ltrovr</key>
-				<data>AAQAAAAAAAA=</data>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1c,0x0)/Pci(0x0,0x0)</key>
-			<dict>
-				<key>model</key>
-				<string>Intel Sunrise Point-LP PCI Express Root Port #1</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1c,0x4)</key>
-			<dict>
-				<key>reg-ltrovr</key>
-				<data>AAQAAAAAAAA=</data>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1c,0x4)/Pci(0x0,0x0)</key>
-			<dict>
-				<key>model</key>
-				<string>Intel Sunrise Point-LP PCI Express Root Port #5</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1c,0x7)</key>
-			<dict>
-				<key>reg-ltrovr</key>
-				<data>AAQAAAAAAAA=</data>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1d,0x0)</key>
-			<dict>
-				<key>reg-ltrovr</key>
-				<data>AAQAAAAAAAA=</data>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1d,0x0)/Pci(0x0,0x0)</key>
-			<dict>
-				<key>model</key>
-				<string>Intel Sunrise Point-LP PCI Express Root Port #9</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1f,0x0)</key>
-			<dict>
-				<key>model</key>
-				<string>Intel Sunrise Point LPC Controller</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1f,0x2)</key>
-			<dict>
-				<key>device_type</key>
-				<string>Memory Controller</string>
-				<key>model</key>
-				<string>Intel Sunrise Point-LP PMC</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1f,0x3)</key>
+			<key>PciRoot(0x0)/Pci(0x17,0x0)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
-				<string>Built In</string>
+				<string>Internal@0,23,0</string>
+				<key>device_type</key>
+				<string>SATA controller</string>
+				<key>model</key>
+				<string>Cannon Point-LP SATA Controller [AHCI Mode]</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1C,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,28,0</string>
+				<key>device_type</key>
+				<string>PCI bridge</string>
+				<key>model</key>
+				<string>Cannon Point-LP PCI Express Root Port #5</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1D,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,29,0</string>
+				<key>device_type</key>
+				<string>PCI bridge</string>
+				<key>model</key>
+				<string>Cannon Point-LP PCI Express Root Port #9</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1D,0x0)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,29,0/0,0</string>
+				<key>device_type</key>
+				<string>Card Reader controller</string>
+				<key>model</key>
+				<string>RTL8411B PCI Express Card Reader</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1D,0x0)/Pci(0x0,0x1)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,29,0/0,1</string>
+				<key>device_type</key>
+				<string>Ethernet controller</string>
+				<key>model</key>
+				<string>RTL8111 PCI Express Gigabit Ethernet Controller</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1D,0x1)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,29,1</string>
+				<key>device_type</key>
+				<string>PCI bridge</string>
+				<key>model</key>
+				<string>Cannon Point-LP PCI Express Root Port #10</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1D,0x1)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,29,1/0,0</string>
+				<key>device_type</key>
+				<string>Network controller</string>
+				<key>model</key>
+				<string>BCM4352 802.11ac Wireless Network Adapter</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1F,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,31,0</string>
+				<key>device_type</key>
+				<string>ISA bridge</string>
+				<key>model</key>
+				<string>Cannon Point-LP LPC Controller</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1F,0x3)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,31,3</string>
 				<key>device_type</key>
 				<string>Audio device</string>
 				<key>hda-gfx</key>
@@ -349,10 +404,23 @@
 				<key>model</key>
 				<string>Apple High Definition Audio Controller ALC</string>
 			</dict>
-			<key>PciRoot(0x0)/Pci(0x1f,0x4)</key>
+			<key>PciRoot(0x0)/Pci(0x1F,0x4)</key>
 			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,31,4</string>
+				<key>device_type</key>
+				<string>SMBus controller</string>
 				<key>model</key>
-				<string>Intel Sunrise Point-LP SMBus</string>
+				<string>Cannon Point-LP SMBus Controller</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1F,0x5)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,31,5</string>
+				<key>device_type</key>
+				<string>XSPI controller</string>
+				<key>model</key>
+				<string>Cannon Point-LP SPI Controller</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
@@ -401,10 +469,12 @@
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x8,0x0)</key>
 			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,8,0</string>
 				<key>device_type</key>
-				<string>System Peripheral</string>
+				<string>System peripheral</string>
 				<key>model</key>
-				<string>Intel 8th Gen Core Processor Gaussian Mixture Model</string>
+				<string>8th Gen Core Processor Gaussian Mixture Model</string>
 			</dict>
 		</dict>
 		<key>Delete</key>
@@ -580,42 +650,6 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>HoRNDIS.kext</string>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/HoRNDIS</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
-				<string>Sinetek-rtsx.kext</string>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/Sinetek-rtsx</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
 				<string>SMCBatteryManager.kext</string>
 				<key>Comment</key>
 				<string></string>
@@ -659,24 +693,6 @@
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/SMCProcessor</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
-				<string>VerbStub.kext</string>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/VerbStub</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -832,6 +848,24 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
+				<string>HoRNDIS.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/HoRNDIS</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
 				<string>RealtekRTL8111.kext</string>
 				<key>Comment</key>
 				<string></string>
@@ -850,13 +884,49 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>USBInjectAll.kext</string>
+				<string>Sinetek-rtsx.kext</string>
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
-				<string>Contents/MacOS/USBInjectAll</string>
+				<string>Contents/MacOS/Sinetek-rtsx</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>VerbStub.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/VerbStub</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>USBPorts.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string></string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -881,48 +951,7 @@
 			<string></string>
 		</dict>
 		<key>Force</key>
-		<array>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
-				<string>System/Library/Extensions/corecapture.kext</string>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/corecapture</string>
-				<key>Identifier</key>
-				<string>com.apple.driver.corecapture</string>
-				<key>MaxKernel</key>
-				<string>19.99.99</string>
-				<key>MinKernel</key>
-				<string>17.0.0</string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
-				<string>System/Library/Extensions/IO80211Family.kext</string>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/IO80211Family</string>
-				<key>Identifier</key>
-				<string>com.apple.iokit.IO80211Family</string>
-				<key>MaxKernel</key>
-				<string>19.99.99</string>
-				<key>MinKernel</key>
-				<string>17.0.0</string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-		</array>
+		<array/>
 		<key>Patch</key>
 		<array/>
 		<key>Quirks</key>
@@ -964,7 +993,7 @@
 			<key>ThirdPartyDrives</key>
 			<false/>
 			<key>XhciPortLimit</key>
-			<true/>
+			<false/>
 		</dict>
 		<key>Scheme</key>
 		<dict>
