@@ -7,7 +7,9 @@ Raccolta EFI Hackintosh di vari HW Laptop e Desktop
 
 ### Desktop
 
-[link](https://github.com/Baio1977/EFI-Varie-Hackintosh/tree/main/EFI%20Desktop)                                                                                                                             ### EFI Legacy Bios (OpenCore\Clover Bootloader)
+[link](https://github.com/Baio1977/EFI-Varie-Hackintosh/tree/main/EFI%20Desktop) 
+
+### EFI Legacy Bios (OpenCore\Clover Bootloader)
 
 [link](https://github.com/Baio1977/EFI-Varie-Hackintosh/tree/main/EFI%20Legacy%20Bios)   
 
