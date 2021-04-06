@@ -1,6 +1,6 @@
 
 Clover EFI installer log - Sat Jun  6 14:00:07 CEST 2020
-Installer version: r5119 (commit: 0f5da727e) EFI bootloader
+Installer version: r5131) EFI bootloader
 ======================================================
 /dev/disk0 (internal, physical):
    #:                       TYPE NAME                    SIZE       IDENTIFIER
