@@ -1,107 +1,66 @@
-163:819  24:370  Found UEFI Acpi 2.0 RSDP at %p
-163:819  0:000  Saving ACPI tables from RSDP %p to å’â„å‘â’ä²€ä¹…å™Éîƒ„ë´«$ ...
-163:819  0:000   %p: 'RSD PTR €LENOVOÄà+½$', Rev: -1476231337 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
-163:850  0:030    (Xsdt: %p, Rsdt: %p)
-163:850  0:000    %p: 'XSDT', 'XSDT', Rev: -1476231545, Len: 1 -> XSDT.aml
-163:889  0:039    %p: 'RSDT”', 'RSDT', Rev: -1476231545, Len: 1 -> RSDT.aml
-163:919  0:029    Tables in Xsdt: 28
-163:919  0:000    0. %p: 'FACPô', 'FACP', Rev: -1476231545, Len: 5 -> FACP.aml
-163:949  0:030        (Dsdt: BD2C7000, Facs: BD266000, XDsdt: bd2c7000, XFacs: 0)
-163:949  0:000        %p: 'DSDTZ3', 'DSDT', Rev: -1476231705, Len: 2 -> DSDT.aml
-163:991  0:042        %p: 'FACS@', Ver: -1476231509, Len: 2 -> FACS.aml
-164:021  0:029    1. %p: 'TCPA2', 'TCPA', Rev: -1476231545, Len: 2 -> TCPA.aml
-164:053  0:031    2. %p: 'SSDTÐ', 'SSDT', Rev: -1476231545, Len: 2 -> SSDT-0-Tpm2Tabl.aml
-164:082  0:029    3. %p: 'SSDTK', 'SSDT', Rev: -1476231545, Len: 2 -> SSDT-1-MeSsdt.aml
-164:116  0:033    4. %p: 'TPM24', 'TPM2', Rev: -1476231545, Len: 3 -> TPM2.aml
-164:156  0:039    5. %p: 'UEFIB', 'UEFI', Rev: -1476231545, Len: 1 -> UEFI.aml
-164:185  0:028    6. %p: 'SSDT', 'SSDT', Rev: -1476231545, Len: 2 -> SSDT-2-SaSsdt.aml
-164:214  0:029    7. %p: 'SSDTÅ', 'SSDT', Rev: -1476231545, Len: 2 -> SSDT-3-PerfTune.aml
-164:244  0:029    8. %p: 'HPET8', 'HPET', Rev: -1476231545, Len: 1 -> HPET.aml
-164:272  0:028    9. %p: 'LPIT”', 'LPIT', Rev: -1476231545, Len: 1 -> LPIT.aml
-164:302  0:029    10. %p: 'APIC¼', 'APIC', Rev: -1476231545, Len: 3 -> APIC.aml
-164:331  0:029    11. %p: 'MCFG<', 'MCFG', Rev: -1476231545, Len: 1 -> MCFG.aml
-164:360  0:029    12. %p: 'WDAT4', 'WDAT', Rev: -1476231545, Len: 1 -> WDAT.aml
-164:390  0:029    13. %p: 'SSDTš', 'SSDT', Rev: -1476231545, Len: 2 -> SSDT-4-Sata0Ide.aml
-164:426  0:035    14. %p: 'DBGP4', 'DBGP', Rev: -1476231545, Len: 1 -> DBGP.aml
-164:455  0:029    15. %p: 'DBG2T', 'DBG2', Rev: -1476231545, Len: 0 -> DBG2.aml
-164:484  0:029    16. %p: 'SSDTË', 'SSDT', Rev: -1476231545, Len: 2 -> SSDT-5-xh_rvp07.aml
-164:513  0:028    17. %p: 'BOOT(', 'BOOT', Rev: -1476231545, Len: 1 -> BOOT.aml
-164:541  0:028    18. %p: 'BATBF', 'BATB', Rev: -1476231545, Len: 1 -> BATB.aml
-164:570  0:028    19. %p: 'SSDTy', 'SSDT', Rev: -1476231545, Len: 2 -> SSDT-6-Cpu0Ist.aml
-164:599  0:029    20. %p: 'SSDTs', 'SSDT', Rev: -1476231545, Len: 2 -> SSDT-7-CpuSsdt.aml
-164:637  0:038    21. %p: 'MSDMU', 'MSDM', Rev: -1476231545, Len: 3 -> MSDM.aml
-164:671  0:034    22. %p: 'SLICv', 'SLIC', Rev: -1476231545, Len: 1 -> SLIC.aml
-164:711  0:039    23. %p: 'SSDT‡', 'SSDT', Rev: -1476231545, Len: 2 -> SSDT-8-SgPch.aml
-164:737  0:026    24. %p: 'ASF!¥', 'ASF!', Rev: -1476231545, Len: 32 -> ASF!.aml
-164:765  0:028    25. %p: 'FPDTD', 'FPDT', Rev: -1476231545, Len: 1 -> FPDT.aml
-164:794  0:028    26. %p: 'UEFI>', 'UEFI', Rev: -1476231545, Len: 1 -> UEFI.aml
-164:825  0:030    27. %p: 'BGRT8', 'BGRT', Rev: -1476231545, Len: 1 -> BGRT.aml
-164:852  0:027    Tables in Rsdt: 28
-164:852  0:000    0. %p: 'FACPô', 'FACP', Rev: -1476231545, Len: 5
-164:852  0:000        (Dsdt: BD2C7000, Facs: BD266000, XDsdt: bd2c7000, XFacs: 0)
-164:852  0:000        %p: 'DSDTZ3', 'DSDT', Rev: -1476231705, Len: 2
-164:852  0:000        %p: 'FACS@', Ver: -1476231509, Len: 2
-164:852  0:000    1. %p: 'TCPA2', 'TCPA', Rev: -1476231545, Len: 2
-164:852  0:000    2. %p: 'SSDTÐ', 'SSDT', Rev: -1476231545, Len: 2
-164:852  0:000    3. %p: 'SSDTK', 'SSDT', Rev: -1476231545, Len: 2
-164:852  0:000    4. %p: 'TPM24', 'TPM2', Rev: -1476231545, Len: 3
-164:852  0:000    5. %p: 'UEFIB', 'UEFI', Rev: -1476231545, Len: 1
-164:852  0:000    6. %p: 'SSDT', 'SSDT', Rev: -1476231545, Len: 2
-164:852  0:000    7. %p: 'SSDTÅ', 'SSDT', Rev: -1476231545, Len: 2
-164:852  0:000    8. %p: 'HPET8', 'HPET', Rev: -1476231545, Len: 1
-164:852  0:000    9. %p: 'LPIT”', 'LPIT', Rev: -1476231545, Len: 1
-164:852  0:000    10. %p: 'APIC¼', 'APIC', Rev: -1476231545, Len: 3
-164:852  0:000    11. %p: 'MCFG<', 'MCFG', Rev: -1476231545, Len: 1
-164:852  0:000    12. %p: 'WDAT4', 'WDAT', Rev: -1476231545, Len: 1
-164:852  0:000    13. %p: 'SSDTš', 'SSDT', Rev: -1476231545, Len: 2
-164:852  0:000    14. %p: 'DBGP4', 'DBGP', Rev: -1476231545, Len: 1
-164:852  0:000    15. %p: 'DBG2T', 'DBG2', Rev: -1476231545, Len: 0
-164:852  0:000    16. %p: 'SSDTË', 'SSDT', Rev: -1476231545, Len: 2
-164:852  0:000    17. %p: 'BOOT(', 'BOOT', Rev: -1476231545, Len: 1
-164:853  0:000    18. %p: 'BATBF', 'BATB', Rev: -1476231545, Len: 1
-164:853  0:000    19. %p: 'SSDTy', 'SSDT', Rev: -1476231545, Len: 2
-164:853  0:000    20. %p: 'SSDTs', 'SSDT', Rev: -1476231545, Len: 2
-164:853  0:000    21. %p: 'MSDMU', 'MSDM', Rev: -1476231545, Len: 3
-164:853  0:000    22. %p: 'SLICv', 'SLIC', Rev: -1476231545, Len: 1
-164:853  0:000    23. %p: 'SSDT‡', 'SSDT', Rev: -1476231545, Len: 2
-164:853  0:000    24. %p: 'ASF!¥', 'ASF!', Rev: -1476231545, Len: 32
-164:853  0:000    25. %p: 'FPDTD', 'FPDT', Rev: -1476231545, Len: 1
-164:853  0:000    26. %p: 'UEFI>', 'UEFI', Rev: -1476231545, Len: 1
-164:853  0:000    27. %p: 'BGRT8', 'BGRT', Rev: -1476231545, Len: 1
-164:853  0:000  Found UEFI Acpi 1.0 RSDP at %p
-164:853  0:000  Printing ACPI tables from RSDP %p ...
-164:853  0:000   %p: 'RSD PTR FLENOVO', Rev: -1476231337 (Acpi 1.0), Len: 20
-164:853  0:000    (Rsdt: %p)
-164:853  0:000    %p: 'RSDT”', 'RSDT', Rev: -1476231545, Len: 1
-164:853  0:000    Tables in Rsdt: 28
-164:853  0:000    0. %p: 'FACPô', 'FACP', Rev: -1476231545, Len: 5
-164:853  0:000        (Dsdt: BD2C7000, Facs: BD266000, XDsdt: bd2c7000, XFacs: 0)
-164:853  0:000        %p: 'DSDTZ3', 'DSDT', Rev: -1476231705, Len: 2
-164:853  0:000        %p: 'FACS@', Ver: -1476231509, Len: 2
-164:853  0:000    1. %p: 'TCPA2', 'TCPA', Rev: -1476231545, Len: 2
-164:853  0:000    2. %p: 'SSDTÐ', 'SSDT', Rev: -1476231545, Len: 2
-164:853  0:000    3. %p: 'SSDTK', 'SSDT', Rev: -1476231545, Len: 2
-164:853  0:000    4. %p: 'TPM24', 'TPM2', Rev: -1476231545, Len: 3
-164:853  0:000    5. %p: 'UEFIB', 'UEFI', Rev: -1476231545, Len: 1
-164:853  0:000    6. %p: 'SSDT', 'SSDT', Rev: -1476231545, Len: 2
-164:853  0:000    7. %p: 'SSDTÅ', 'SSDT', Rev: -1476231545, Len: 2
-164:853  0:000    8. %p: 'HPET8', 'HPET', Rev: -1476231545, Len: 1
-164:853  0:000    9. %p: 'LPIT”', 'LPIT', Rev: -1476231545, Len: 1
-164:853  0:000    10. %p: 'APIC¼', 'APIC', Rev: -1476231545, Len: 3
-164:853  0:000    11. %p: 'MCFG<', 'MCFG', Rev: -1476231545, Len: 1
-164:853  0:000    12. %p: 'WDAT4', 'WDAT', Rev: -1476231545, Len: 1
-164:853  0:000    13. %p: 'SSDTš', 'SSDT', Rev: -1476231545, Len: 2
-164:853  0:000    14. %p: 'DBGP4', 'DBGP', Rev: -1476231545, Len: 1
-164:853  0:000    15. %p: 'DBG2T', 'DBG2', Rev: -1476231545, Len: 0
-164:853  0:000    16. %p: 'SSDTË', 'SSDT', Rev: -1476231545, Len: 2
-164:853  0:000    17. %p: 'BOOT(', 'BOOT', Rev: -1476231545, Len: 1
-164:853  0:000    18. %p: 'BATBF', 'BATB', Rev: -1476231545, Len: 1
-164:853  0:000    19. %p: 'SSDTy', 'SSDT', Rev: -1476231545, Len: 2
-164:853  0:000    20. %p: 'SSDTs', 'SSDT', Rev: -1476231545, Len: 2
-164:853  0:000    21. %p: 'MSDMU', 'MSDM', Rev: -1476231545, Len: 3
-164:853  0:000    22. %p: 'SLICv', 'SLIC', Rev: -1476231545, Len: 1
-164:853  0:000    23. %p: 'SSDT‡', 'SSDT', Rev: -1476231545, Len: 2
-164:853  0:000    24. %p: 'ASF!¥', 'ASF!', Rev: -1476231545, Len: 32
-164:853  0:000    25. %p: 'FPDTD', 'FPDT', Rev: -1476231545, Len: 1
-164:853  0:000    26. %p: 'UEFI>', 'UEFI', Rev: -1476231545, Len: 1
-164:853  0:000    27. %p: 'BGRT8', 'BGRT', Rev: -1476231545, Len: 1
+70:620  66:879  Found UEFI Acpi 2.0 RSDP at 8befd014
+70:620  0:000  Saving ACPI tables from RSDP 8befd014 to ACPI\origin ...
+70:620  0:000   8befd014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+71:562  0:942    (Xsdt: 8becf188, Rsdt: 8becf0c4)
+71:562  0:000    8becf188: 'XSDT', 'CB-01', Rev: 1, Len: 244 -> XSDT.aml
+71:641  0:078    8becf0c4: 'RSDT', 'CB-01', Rev: 1, Len: 140 -> RSDT.aml
+71:707  0:066    Tables in Xsdt: 26
+71:707  0:000    0. 8beea000: 'FACP', 'CB-01', Rev: 5, Len: 268 -> FACP.aml
+71:774  0:066        (Dsdt: 8BED2000, Facs: 8BE45000, XDsdt: 8bed2000, XFacs: 0)
+71:774  0:000        8bed2000: 'DSDT', 'CB-01', Rev: 2, Len: 77874 -> DSDT.aml
+71:875  0:100        8be45000: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+71:942  0:066    1. 8befc000: 'TCPA', 'CB-01', Rev: 2, Len: 50 -> TCPA.aml
+72:008  0:066    2. 8befb000: 'UEFI', 'CB-01', Rev: 1, Len: 566 -> UEFI.aml
+72:087  0:078    3. 8befa000: 'UEFI', 'CB-01', Rev: 1, Len: 66 -> UEFI.aml
+72:195  0:108    4. 8bef9000: 'SSDT', 'CB-01', Rev: 2, Len: 1207 -> SSDT-0-CB-01.aml
+72:273  0:077    5. 8bef8000: 'SSDT', 'CB-01', Rev: 2, Len: 75 -> SSDT-1-CB-01.aml
+72:373  0:099    6. 8bef7000: 'TPM2', 'CB-01', Rev: 3, Len: 52 -> TPM2.aml
+72:448  0:075    7. 8bef6000: 'MSDM', 'CB-01', Rev: 3, Len: 85 -> MSDM.aml
+72:534  0:086    8. 8bef1000: 'SSDT', 'CB-01', Rev: 2, Len: 19763 -> SSDT-2-CB-01.aml
+72:610  0:075    9. 8bef0000: 'DBGP', 'CB-01', Rev: 1, Len: 52 -> DBGP.aml
+72:687  0:077    10. 8beef000: 'DBG2', 'CB-01', Rev: 0, Len: 84 -> DBG2.aml
+72:773  0:086    11. 8beee000: 'ASF!', 'CB-01', Rev: 32, Len: 165 -> ASF!.aml
+72:848  0:075    12. 8beed000: 'ASPT', 'CB-01', Rev: 7, Len: 52 -> ASPT.aml
+72:923  0:075    13. 8beec000: 'BOOT', 'CB-01', Rev: 1, Len: 40 -> BOOT.aml
+73:010  0:086    14. 8beeb000: 'DBGP', 'CB-01', Rev: 1, Len: 52 -> DBGP.aml
+73:135  0:124    15. 8bee9000: 'HPET', 'CB-01', Rev: 1, Len: 56 -> HPET.aml
+73:222  0:087    16. 8bee8000: 'LPIT', 'CB-01', Rev: 1, Len: 148 -> LPIT.aml
+73:297  0:075    17. 8bee7000: 'APIC', 'CB-01', Rev: 3, Len: 188 -> APIC.aml
+73:372  0:074    18. 8bee6000: 'MCFG', 'CB-01', Rev: 1, Len: 60 -> MCFG.aml
+73:458  0:086    19. 8bed1000: 'SSDT', 'CB-01', Rev: 2, Len: 410 -> SSDT-3-CB-01.aml
+73:561  0:102    20. 8bed0000: 'SSDT', 'CB-01', Rev: 2, Len: 433 -> SSDT-4-CB-01.aml
+73:647  0:086    21. 8bece000: 'SSDT', 'CB-01', Rev: 2, Len: 1521 -> SSDT-5-CB-01.aml
+73:722  0:074    22. 8becd000: 'SSDT', 'CB-01', Rev: 2, Len: 3699 -> SSDT-6-CB-01.aml
+73:797  0:075    23. 8becc000: 'DMAR', 'CB-01', Rev: 1, Len: 168 -> DMAR.aml
+73:884  0:086    24. 8becb000: 'FPDT', 'CB-01', Rev: 1, Len: 68 -> FPDT.aml
+73:959  0:075    25. 8beca000: 'BGRT', 'CB-01', Rev: 1, Len: 56 -> BGRT.aml
+74:034  0:075    Tables in Rsdt: 26
+74:034  0:000    0. 8beea000: 'FACP', 'CB-01', Rev: 5, Len: 268
+74:034  0:000        (Dsdt: 8BED2000, Facs: 8BE45000, XDsdt: 8bed2000, XFacs: 0)
+74:034  0:000        8bed2000: 'DSDT', 'CB-01', Rev: 2, Len: 77874
+74:034  0:000        8be45000: 'FACS', Ver: 2, Len: 64
+74:034  0:000    1. 8befc000: 'TCPA', 'CB-01', Rev: 2, Len: 50
+74:034  0:000    2. 8befb000: 'UEFI', 'CB-01', Rev: 1, Len: 566
+74:034  0:000    3. 8befa000: 'UEFI', 'CB-01', Rev: 1, Len: 66
+74:034  0:000    4. 8bef9000: 'SSDT', 'CB-01', Rev: 2, Len: 1207
+74:034  0:000    5. 8bef8000: 'SSDT', 'CB-01', Rev: 2, Len: 75
+74:034  0:000    6. 8bef7000: 'TPM2', 'CB-01', Rev: 3, Len: 52
+74:034  0:000    7. 8bef6000: 'MSDM', 'CB-01', Rev: 3, Len: 85
+74:034  0:000    8. 8bef1000: 'SSDT', 'CB-01', Rev: 2, Len: 19763
+74:034  0:000    9. 8bef0000: 'DBGP', 'CB-01', Rev: 1, Len: 52
+74:034  0:000    10. 8beef000: 'DBG2', 'CB-01', Rev: 0, Len: 84
+74:034  0:000    11. 8beee000: 'ASF!', 'CB-01', Rev: 32, Len: 165
+74:034  0:000    12. 8beed000: 'ASPT', 'CB-01', Rev: 7, Len: 52
+74:034  0:000    13. 8beec000: 'BOOT', 'CB-01', Rev: 1, Len: 40
+74:034  0:000    14. 8beeb000: 'DBGP', 'CB-01', Rev: 1, Len: 52
+74:034  0:000    15. 8bee9000: 'HPET', 'CB-01', Rev: 1, Len: 56
+74:034  0:000    16. 8bee8000: 'LPIT', 'CB-01', Rev: 1, Len: 148
+74:034  0:000    17. 8bee7000: 'APIC', 'CB-01', Rev: 3, Len: 188
+74:034  0:000    18. 8bee6000: 'MCFG', 'CB-01', Rev: 1, Len: 60
+74:034  0:000    19. 8bed1000: 'SSDT', 'CB-01', Rev: 2, Len: 410
+74:034  0:000    20. 8bed0000: 'SSDT', 'CB-01', Rev: 2, Len: 433
+74:034  0:000    21. 8bece000: 'SSDT', 'CB-01', Rev: 2, Len: 1521
+74:034  0:000    22. 8becd000: 'SSDT', 'CB-01', Rev: 2, Len: 3699
+74:034  0:000    23. 8becc000: 'DMAR', 'CB-01', Rev: 1, Len: 168
+74:034  0:000    24. 8becb000: 'FPDT', 'CB-01', Rev: 1, Len: 68
+74:034  0:000    25. 8beca000: 'BGRT', 'CB-01', Rev: 1, Len: 56
