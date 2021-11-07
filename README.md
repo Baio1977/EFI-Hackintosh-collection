@@ -13,4 +13,4 @@ Raccolta EFI Hackintosh di vari HW Laptop e Desktop
 
 [link](https://github.com/Baio1977/EFI-Varie-Hackintosh/tree/main/EFI%20Legacy%20Bios)   
 
-# Se hai bisogno di supporto qui [Telegram](https://t.me/HackintoshLife_it) o [Web](https://www.hackintoshlife.it/)
+# Se hai bisogno di supporto qui [Telegram](https://t.me/HackintoshLife_it)
