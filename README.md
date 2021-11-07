@@ -11,6 +11,6 @@ Raccolta EFI Hackintosh di vari HW Laptop e Desktop
 
 ### Theme for EFI (OpenCore)
 
-[link](https://github.com/Baio1977/EFI-Varie-Hackintosh/tree/main/EFI%20Legacy%20Bios)   
+[link](https://github.com/Baio1977/EFI-Varie-Hackintosh/tree/main/Themes%20EFI)   
 
 # Se hai bisogno di supporto qui [Telegram](https://t.me/HackintoshLife_it)
