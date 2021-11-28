@@ -12,7 +12,7 @@
                     <key>Enabled</key>
                     <true/>
                     <key>Path</key>
-                    <string>SSDT-AsRockZ490SteelLegend.aml</string>
+                    <string>SSDT-AsRock_Z490_SteelLegend.aml</string>
                 </dict>
             </array>
             <key>Delete</key>
@@ -778,6 +778,8 @@
                 <false/>
                 <key>ProvideConsoleGop</key>
                 <true/>
+                <key>ReconnectGraphicsOnConnect</key>
+                <false/>
                 <key>ReconnectOnResChange</key>
                 <false/>
                 <key>ReplaceTabWithSpace</key>
