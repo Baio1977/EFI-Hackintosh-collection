@@ -8,107 +8,11 @@
             <array>
                 <dict>
                     <key>Comment</key>
-                    <string></string>
+                    <string>SSDT Hack</string>
                     <key>Enabled</key>
                     <true/>
                     <key>Path</key>
-                    <string>SSDT-0D6D-HP.aml</string>
-                </dict>
-                <dict>
-                    <key>Comment</key>
-                    <string></string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>Path</key>
-                    <string>SSDT-ACAD.aml</string>
-                </dict>
-                <dict>
-                    <key>Comment</key>
-                    <string></string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>Path</key>
-                    <string>SSDT-AWAC.aml</string>
-                </dict>
-                <dict>
-                    <key>Comment</key>
-                    <string></string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>Path</key>
-                    <string>SSDT-DMAC.aml</string>
-                </dict>
-                <dict>
-                    <key>Comment</key>
-                    <string></string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>Path</key>
-                    <string>SSDT-EC-USBX.aml</string>
-                </dict>
-                <dict>
-                    <key>Comment</key>
-                    <string></string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>Path</key>
-                    <string>SSDT-GAUS.aml</string>
-                </dict>
-                <dict>
-                    <key>Comment</key>
-                    <string></string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>Path</key>
-                    <string>SSDT-MCHC.aml</string>
-                </dict>
-                <dict>
-                    <key>Comment</key>
-                    <string></string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>Path</key>
-                    <string>SSDT-PLUG.aml</string>
-                </dict>
-                <dict>
-                    <key>Comment</key>
-                    <string></string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>Path</key>
-                    <string>SSDT-PNLF-SKL_KBL.aml</string>
-                </dict>
-                <dict>
-                    <key>Comment</key>
-                    <string></string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>Path</key>
-                    <string>SSDT-RTC0.aml</string>
-                </dict>
-                <dict>
-                    <key>Comment</key>
-                    <string></string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>Path</key>
-                    <string>SSDT-SLPB.aml</string>
-                </dict>
-                <dict>
-                    <key>Comment</key>
-                    <string></string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>Path</key>
-                    <string>SSDT-SRAM.aml</string>
-                </dict>
-                <dict>
-                    <key>Comment</key>
-                    <string></string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>Path</key>
-                    <string>SSDT-XOSI.aml</string>
+                    <string>SSDT-HP_DA0190NL.aml</string>
                 </dict>
             </array>
             <key>Delete</key>
@@ -144,6 +48,36 @@
                     <integer>0</integer>
                     <key>TableSignature</key>
                     <data>RFNEVA==</data>
+                </dict>
+                <dict>
+                    <key>Base</key>
+                    <string></string>
+                    <key>BaseSkip</key>
+                    <integer>0</integer>
+                    <key>Comment</key>
+                    <string>change Method(GPRW,2,N) to XPRW, pair with SSDT-PRW.aml</string>
+                    <key>Count</key>
+                    <integer>0</integer>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>Find</key>
+                    <data>R1BSVwI=</data>
+                    <key>Limit</key>
+                    <integer>0</integer>
+                    <key>Mask</key>
+                    <data></data>
+                    <key>OemTableId</key>
+                    <data></data>
+                    <key>Replace</key>
+                    <data>WFBSVwI=</data>
+                    <key>ReplaceMask</key>
+                    <data></data>
+                    <key>Skip</key>
+                    <integer>0</integer>
+                    <key>TableLength</key>
+                    <integer>0</integer>
+                    <key>TableSignature</key>
+                    <data></data>
                 </dict>
             </array>
             <key>Quirks</key>
@@ -386,7 +320,7 @@
                     <key>BundlePath</key>
                     <string>ECEnabler.kext</string>
                     <key>Comment</key>
-                    <string>V1</string>
+                    <string>V1.0.2</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -418,7 +352,7 @@
                 </dict>
                 <dict>
                     <key>Arch</key>
-                    <string>x86_64</string>
+                    <string>Any</string>
                     <key>BundlePath</key>
                     <string>VoodooPS2Controller.kext</string>
                     <key>Comment</key>
@@ -436,7 +370,7 @@
                 </dict>
                 <dict>
                     <key>Arch</key>
-                    <string>x86_64</string>
+                    <string>Any</string>
                     <key>BundlePath</key>
                     <string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Keyboard.kext</string>
                     <key>Comment</key>
@@ -454,7 +388,7 @@
                 </dict>
                 <dict>
                     <key>Arch</key>
-                    <string>x86_64</string>
+                    <string>Any</string>
                     <key>BundlePath</key>
                     <string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Mouse.kext</string>
                     <key>Comment</key>
@@ -472,7 +406,7 @@
                 </dict>
                 <dict>
                     <key>Arch</key>
-                    <string>x86_64</string>
+                    <string>Any</string>
                     <key>BundlePath</key>
                     <string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Trackpad.kext</string>
                     <key>Comment</key>
@@ -512,7 +446,7 @@
                     <key>BundlePath</key>
                     <string>VoodooRMI.kext</string>
                     <key>Comment</key>
-                    <string>V1.3.4</string>
+                    <string>V1.3.5</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -636,13 +570,13 @@
                     <key>Arch</key>
                     <string>Any</string>
                     <key>BundlePath</key>
-                    <string>USBInjectAll.kext</string>
+                    <string>USBPorts.kext</string>
                     <key>Comment</key>
-                    <string>V0.7.7</string>
+                    <string>V1.0</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
-                    <string>Contents/MacOS/USBInjectAll</string>
+                    <string></string>
                     <key>MaxKernel</key>
                     <string></string>
                     <key>MinKernel</key>
@@ -720,7 +654,7 @@
                 <key>FuzzyMatch</key>
                 <true/>
                 <key>KernelArch</key>
-                <string>x86_64</string>
+                <string>Auto</string>
                 <key>KernelCache</key>
                 <string>Auto</string>
             </dict>
@@ -742,13 +676,13 @@
                 <key>LauncherPath</key>
                 <string>Default</string>
                 <key>PickerAttributes</key>
-                <integer>17</integer>
+                <integer>159</integer>
                 <key>PickerAudioAssist</key>
                 <false/>
                 <key>PickerMode</key>
                 <string>External</string>
                 <key>PickerVariant</key>
-                <string>Modern</string>
+                <string>HackintoshLife</string>
                 <key>PollAppleHotKeys</key>
                 <true/>
                 <key>ShowPicker</key>
@@ -827,7 +761,7 @@
                 <key>ScanPolicy</key>
                 <integer>0</integer>
                 <key>SecureBootModel</key>
-                <string>Disabled</string>
+                <string>Default</string>
                 <key>Vault</key>
                 <string>Optional</string>
             </dict>
@@ -855,7 +789,7 @@
                     <key>SystemAudioVolume</key>
                     <data>Rg==</data>
                     <key>boot-args</key>
-                    <string>-v keepsyms=1 -wegnoegpu acpi=off</string>
+                    <string>-v keepsyms=1 -wegnoegpu debug=0x100</string>
                     <key>csr-active-config</key>
                     <data>AAAAAA==</data>
                     <key>prev-lang:kbd</key>
@@ -932,11 +866,11 @@
                 <key>ProcessorType</key>
                 <integer>0</integer>
                 <key>ROM</key>
-                <data>ESIzRFVm</data>
+                <data>xn3Oaqnv</data>
                 <key>SpoofVendor</key>
                 <true/>
                 <key>SystemMemoryStatus</key>
-                <string>Auto</string>
+                <string>Upgradable</string>
                 <key>SystemProductName</key>
                 <string>MacBookPro14,1</string>
                 <key>SystemSerialNumber</key>
@@ -966,7 +900,7 @@
                 <key>HideVerbose</key>
                 <true/>
                 <key>JumpstartHotPlug</key>
-                <false/>
+                <true/>
                 <key>MinDate</key>
                 <integer>0</integer>
                 <key>MinVersion</key>
@@ -1134,6 +1068,8 @@
                 <false/>
                 <key>EnableVectorAcceleration</key>
                 <true/>
+                <key>EnableVmx</key>
+                <false/>
                 <key>ExitBootServicesDelay</key>
                 <integer>0</integer>
                 <key>ForceOcWriteFlash</key>
@@ -1153,7 +1089,7 @@
                 <key>TscSyncTimeout</key>
                 <integer>0</integer>
                 <key>UnblockFsConnect</key>
-                <false/>
+                <true/>
             </dict>
             <key>ReservedMemory</key>
             <array/>
