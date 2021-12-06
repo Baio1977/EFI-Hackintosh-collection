@@ -380,9 +380,9 @@
                     <key>AAPL,GfxYTile</key>
                     <data>AQAAAA==</data>
                     <key>AAPL,ig-platform-id</key>
-                    <data>AAAWWQ==</data>
+                    <data>AADAhw==</data>
                     <key>device-id</key>
-                    <data>FlkAAA==</data>
+                    <data>wIcAAA==</data>
                     <key>disable-external-gpu</key>
                     <data>AQAAAA==</data>
                     <key>enable-hdmi-dividers-fix</key>
@@ -1224,7 +1224,7 @@
                 <key>SystemMemoryStatus</key>
                 <string>Upgradable</string>
                 <key>SystemProductName</key>
-                <string>MacBookPro14,1</string>
+                <string>MacBookPro15,2</string>
                 <key>SystemSerialNumber</key>
                 <string>C02WQKY8HV29</string>
                 <key>SystemUUID</key>
