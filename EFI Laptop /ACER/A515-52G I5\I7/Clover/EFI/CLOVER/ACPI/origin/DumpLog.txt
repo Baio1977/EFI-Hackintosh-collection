@@ -1,98 +1,0 @@
-8:817  3:605  Found UEFI Acpi 2.0 RSDP at %p
-8:817  0:000  Saving ACPI tables from RSDP %p to å’â„å‘â’ä„å‰ƒå¥“É“îƒ„è§Ž$ ...
-8:817  0:000   %p: 'RSD PTR ACRSYSÄàÎ‰$', Rev: 1881778775 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
-9:005  0:187    (Xsdt: %p, Rsdt: %p)
-9:005  0:000    %p: 'XSDTì', 'XSDT', Rev: 1881778599, Len: 1 -> XSDT.aml
-9:057  0:052    %p: 'RSDTˆ', 'RSDT', Rev: 1881778599, Len: 1 -> RSDT.aml
-9:107  0:049    Tables in Xsdt: 25
-9:107  0:000    0. %p: 'FACP', 'FACP', Rev: 1881778599, Len: 5 -> FACP.aml
-9:158  0:051        (Dsdt: 89CB8000, Facs: 89C2D000, XDsdt: 89cb8000, XFacs: 0)
-9:158  0:000        %p: 'DSDT}L', 'DSDT', Rev: 1881778455, Len: 2 -> DSDT.aml
-9:226  0:068        %p: 'FACS@', Ver: 1881778619, Len: 2 -> FACS.aml
-9:278  0:051    1. %p: 'UEFI6', 'UEFI', Rev: 1881778599, Len: 1 -> UEFI.aml
-9:326  0:048    2. %p: 'SSDT', 'SSDT', Rev: 1881778599, Len: 2 -> SSDT-0-ACRPRDCT.aml
-9:377  0:050    3. %p: 'SSDTÆ1', 'SSDT', Rev: 1881778599, Len: 2 -> SSDT-1-ACRPRDCT.aml
-9:448  0:070    4. %p: 'UEFIB', 'UEFI', Rev: 1881778599, Len: 1 -> UEFI.aml
-9:526  0:078    5. %p: 'SSDTZ', 'SSDT', Rev: 1881778599, Len: 2 -> SSDT-2-ACRPRDCT.aml
-9:577  0:050    6. %p: 'SSDTF', 'SSDT', Rev: 1881778599, Len: 2 -> SSDT-3-ACRPRDCT.aml
-9:623  0:046    7. %p: 'TPM24', 'TPM2', Rev: 1881778599, Len: 3 -> TPM2.aml
-9:670  0:047    8. %p: 'LPIT”', 'LPIT', Rev: 1881778599, Len: 1 -> LPIT.aml
-9:717  0:046    9. %p: 'WSMT(', 'WSMT', Rev: 1881778599, Len: 1 -> WSMT.aml
-9:764  0:046    10. %p: 'SSDT/', 'SSDT', Rev: 1881778599, Len: 2 -> SSDT-4-ACRPRDCT.aml
-9:811  0:046    11. %p: 'SSDTŸ', 'SSDT', Rev: 1881778599, Len: 2 -> SSDT-5-ACRPRDCT.aml
-9:874  0:063    12. %p: 'DBGP4', 'DBGP', Rev: 1881778599, Len: 1 -> DBGP.aml
-9:920  0:045    13. %p: 'DBG2T', 'DBG2', Rev: 1881778599, Len: 0 -> DBG2.aml
-9:966  0:045    14. %p: 'SSDTŸ', 'SSDT', Rev: 1881778599, Len: 2 -> SSDT-6-ACRPRDCT.aml
-10:012  0:045    15. %p: 'MSDMU', 'MSDM', Rev: 1881778599, Len: 3 -> MSDM.aml
-10:058  0:045    16. %p: 'SSDTÓ_', 'SSDT', Rev: 1881778599, Len: 1 -> SSDT-7-ACRPRDCT.aml
-10:103  0:045    17. %p: 'ASF!¥', 'ASF!', Rev: 1881778599, Len: 32 -> ASF!.aml
-10:149  0:046    18. %p: 'HPET8', 'HPET', Rev: 1881778599, Len: 1 -> HPET.aml
-10:297  0:147    19. %p: 'APIC,', 'APIC', Rev: 1881778599, Len: 3 -> APIC.aml
-10:348  0:050    20. %p: 'MCFG<', 'MCFG', Rev: 1881778599, Len: 1 -> MCFG.aml
-10:395  0:046    21. %p: 'DMAR¨', 'DMAR', Rev: 1881778599, Len: 1 -> DMAR.aml
-10:441  0:046    22. %p: 'SSDTÐ;', 'SSDT', Rev: 1881778599, Len: 1 -> SSDT-8-ACRPRDCT.aml
-10:504  0:062    23. %p: 'FPDTD', 'FPDT', Rev: 1881778599, Len: 1 -> FPDT.aml
-10:550  0:046    24. %p: 'BGRT8', 'BGRT', Rev: 1881778599, Len: 1 -> BGRT.aml
-10:596  0:046    Tables in Rsdt: 25
-10:596  0:000    0. %p: 'FACP', 'FACP', Rev: 1881778599, Len: 5
-10:596  0:000        (Dsdt: 89CB8000, Facs: 89C2D000, XDsdt: 89cb8000, XFacs: 0)
-10:596  0:000        %p: 'DSDT}L', 'DSDT', Rev: 1881778455, Len: 2
-10:596  0:000        %p: 'FACS@', Ver: 1881778619, Len: 2
-10:596  0:000    1. %p: 'UEFI6', 'UEFI', Rev: 1881778599, Len: 1
-10:596  0:000    2. %p: 'SSDT', 'SSDT', Rev: 1881778599, Len: 2
-10:596  0:000    3. %p: 'SSDTÆ1', 'SSDT', Rev: 1881778599, Len: 2
-10:596  0:000    4. %p: 'UEFIB', 'UEFI', Rev: 1881778599, Len: 1
-10:596  0:000    5. %p: 'SSDTZ', 'SSDT', Rev: 1881778599, Len: 2
-10:596  0:000    6. %p: 'SSDTF', 'SSDT', Rev: 1881778599, Len: 2
-10:596  0:000    7. %p: 'TPM24', 'TPM2', Rev: 1881778599, Len: 3
-10:596  0:000    8. %p: 'LPIT”', 'LPIT', Rev: 1881778599, Len: 1
-10:596  0:000    9. %p: 'WSMT(', 'WSMT', Rev: 1881778599, Len: 1
-10:596  0:000    10. %p: 'SSDT/', 'SSDT', Rev: 1881778599, Len: 2
-10:596  0:000    11. %p: 'SSDTŸ', 'SSDT', Rev: 1881778599, Len: 2
-10:596  0:000    12. %p: 'DBGP4', 'DBGP', Rev: 1881778599, Len: 1
-10:596  0:000    13. %p: 'DBG2T', 'DBG2', Rev: 1881778599, Len: 0
-10:596  0:000    14. %p: 'SSDTŸ', 'SSDT', Rev: 1881778599, Len: 2
-10:596  0:000    15. %p: 'MSDMU', 'MSDM', Rev: 1881778599, Len: 3
-10:596  0:000    16. %p: 'SSDTÓ_', 'SSDT', Rev: 1881778599, Len: 1
-10:596  0:000    17. %p: 'ASF!¥', 'ASF!', Rev: 1881778599, Len: 32
-10:596  0:000    18. %p: 'HPET8', 'HPET', Rev: 1881778599, Len: 1
-10:596  0:000    19. %p: 'APIC,', 'APIC', Rev: 1881778599, Len: 3
-10:596  0:000    20. %p: 'MCFG<', 'MCFG', Rev: 1881778599, Len: 1
-10:596  0:000    21. %p: 'DMAR¨', 'DMAR', Rev: 1881778599, Len: 1
-10:596  0:000    22. %p: 'SSDTÐ;', 'SSDT', Rev: 1881778599, Len: 1
-10:596  0:000    23. %p: 'FPDTD', 'FPDT', Rev: 1881778599, Len: 1
-10:596  0:000    24. %p: 'BGRT8', 'BGRT', Rev: 1881778599, Len: 1
-10:596  0:000  Found UEFI Acpi 1.0 RSDP at %p
-10:596  0:000  Printing ACPI tables from RSDP %p ...
-10:596  0:000   %p: 'RSD PTR ÕACRSYS', Rev: 1881778775 (Acpi 1.0), Len: 20
-10:596  0:000    (Rsdt: %p)
-10:596  0:000    %p: 'RSDTˆ', 'RSDT', Rev: 1881778599, Len: 1
-10:596  0:000    Tables in Rsdt: 25
-10:596  0:000    0. %p: 'FACP', 'FACP', Rev: 1881778599, Len: 5
-10:596  0:000        (Dsdt: 89CB8000, Facs: 89C2D000, XDsdt: 89cb8000, XFacs: 0)
-10:596  0:000        %p: 'DSDT}L', 'DSDT', Rev: 1881778455, Len: 2
-10:596  0:000        %p: 'FACS@', Ver: 1881778619, Len: 2
-10:596  0:000    1. %p: 'UEFI6', 'UEFI', Rev: 1881778599, Len: 1
-10:596  0:000    2. %p: 'SSDT', 'SSDT', Rev: 1881778599, Len: 2
-10:596  0:000    3. %p: 'SSDTÆ1', 'SSDT', Rev: 1881778599, Len: 2
-10:596  0:000    4. %p: 'UEFIB', 'UEFI', Rev: 1881778599, Len: 1
-10:596  0:000    5. %p: 'SSDTZ', 'SSDT', Rev: 1881778599, Len: 2
-10:596  0:000    6. %p: 'SSDTF', 'SSDT', Rev: 1881778599, Len: 2
-10:596  0:000    7. %p: 'TPM24', 'TPM2', Rev: 1881778599, Len: 3
-10:596  0:000    8. %p: 'LPIT”', 'LPIT', Rev: 1881778599, Len: 1
-10:596  0:000    9. %p: 'WSMT(', 'WSMT', Rev: 1881778599, Len: 1
-10:596  0:000    10. %p: 'SSDT/', 'SSDT', Rev: 1881778599, Len: 2
-10:596  0:000    11. %p: 'SSDTŸ', 'SSDT', Rev: 1881778599, Len: 2
-10:596  0:000    12. %p: 'DBGP4', 'DBGP', Rev: 1881778599, Len: 1
-10:596  0:000    13. %p: 'DBG2T', 'DBG2', Rev: 1881778599, Len: 0
-10:596  0:000    14. %p: 'SSDTŸ', 'SSDT', Rev: 1881778599, Len: 2
-10:596  0:000    15. %p: 'MSDMU', 'MSDM', Rev: 1881778599, Len: 3
-10:596  0:000    16. %p: 'SSDTÓ_', 'SSDT', Rev: 1881778599, Len: 1
-10:596  0:000    17. %p: 'ASF!¥', 'ASF!', Rev: 1881778599, Len: 32
-10:596  0:000    18. %p: 'HPET8', 'HPET', Rev: 1881778599, Len: 1
-10:596  0:000    19. %p: 'APIC,', 'APIC', Rev: 1881778599, Len: 3
-10:596  0:000    20. %p: 'MCFG<', 'MCFG', Rev: 1881778599, Len: 1
-10:596  0:000    21. %p: 'DMAR¨', 'DMAR', Rev: 1881778599, Len: 1
-10:596  0:000    22. %p: 'SSDTÐ;', 'SSDT', Rev: 1881778599, Len: 1
-10:596  0:000    23. %p: 'FPDTD', 'FPDT', Rev: 1881778599, Len: 1
-10:596  0:000    24. %p: 'BGRT8', 'BGRT', Rev: 1881778599, Len: 1
