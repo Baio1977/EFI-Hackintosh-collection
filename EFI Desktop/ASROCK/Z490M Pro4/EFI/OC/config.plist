@@ -8,7 +8,7 @@
             <array>
                 <dict>
                     <key>Comment</key>
-                    <string></string>
+                    <string>SSDT Hack</string>
                     <key>Enabled</key>
                     <true/>
                     <key>Path</key>
@@ -141,7 +141,7 @@
                     <key>BundlePath</key>
                     <string>Lilu.kext</string>
                     <key>Comment</key>
-                    <string>V1.5.7</string>
+                    <string>V1.5.8</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -159,7 +159,7 @@
                     <key>BundlePath</key>
                     <string>VirtualSMC.kext</string>
                     <key>Comment</key>
-                    <string>V1.2.7</string>
+                    <string>V1.2.8</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -177,7 +177,7 @@
                     <key>BundlePath</key>
                     <string>SMCProcessor.kext</string>
                     <key>Comment</key>
-                    <string>V1.2.7</string>
+                    <string>V1.2.8</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -195,7 +195,7 @@
                     <key>BundlePath</key>
                     <string>SMCSuperIO.kext</string>
                     <key>Comment</key>
-                    <string>V1.2.7</string>
+                    <string>V1.2.8</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -231,7 +231,7 @@
                     <key>BundlePath</key>
                     <string>AppleALC.kext</string>
                     <key>Comment</key>
-                    <string>V1.6.6</string>
+                    <string>V1.6.7</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -473,7 +473,7 @@
                 <key>HibernateMode</key>
                 <string>None</string>
                 <key>HideAuxiliary</key>
-                <false/>
+                <true/>
                 <key>LauncherOption</key>
                 <string>Full</string>
                 <key>LauncherPath</key>
@@ -485,9 +485,9 @@
                 <key>PickerMode</key>
                 <string>External</string>
                 <key>PickerVariant</key>
-                <string>Acidanthera\Chardonnay</string>
+                <string>HackintoshLife</string>
                 <key>PollAppleHotKeys</key>
-                <false/>
+                <true/>
                 <key>ShowPicker</key>
                 <true/>
                 <key>TakeoffDelay</key>
@@ -879,6 +879,8 @@
                 <false/>
                 <key>EnableVectorAcceleration</key>
                 <true/>
+                <key>EnableVmx</key>
+                <false/>
                 <key>ExitBootServicesDelay</key>
                 <integer>0</integer>
                 <key>ForceOcWriteFlash</key>
