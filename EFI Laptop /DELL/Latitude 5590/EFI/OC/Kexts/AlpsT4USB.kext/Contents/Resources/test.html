@@ -1,0 +1,17 @@
+<head>
+    <script src="test.js">
+    </script>
+</head>
+
+
+<body>
+    <input type="button" onclick="start()" value="connect">
+        </input>
+        <input type="button" onclick="read_write_register(document.getElementById('address').value,0,true)" value="read register"></input>
+        <input type="button" onclick="read_write_register(document.getElementById('address').value,document.getElementById('reg_value').value,false)" value="write register"></input>
+        <input type="button" onclick="enable_report_listener()" value="report reading"></input>
+        <input id="address" value="0x00800040"></input>
+        <input id="reg_value" value="0x00"></input>
+    <div id="inputreport" ></div>
+    <div id="log"></div>
+    </body>
