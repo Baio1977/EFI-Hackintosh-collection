@@ -14,14 +14,6 @@
                     <key>Path</key>
                     <string>SSDT-Dell_Latitude7390.aml</string>
                 </dict>
-                <dict>
-                    <key>Comment</key>
-                    <string>SSDT TB</string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>Path</key>
-                    <string>SSDT-TB3-lorys89.aml</string>
-                </dict>
             </array>
             <key>Delete</key>
             <array/>
