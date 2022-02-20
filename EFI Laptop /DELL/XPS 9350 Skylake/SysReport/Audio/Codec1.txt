@@ -21,6 +21,6 @@ Node 0x03 (3) [Pin Complex] wcaps 0x40778D: Stereo Digital Amp-Out
   Pin Default 0x18560010: [Jack] Digital Out at Int Special
     Conn = Digital, Color = Unknown
     DefAssociation = 0x1, Sequence = 0x0
-Pin-ctls: 0x00:
+Pin-ctls: 0x00: VREF_HIZ
   Connection: 1
      0x02

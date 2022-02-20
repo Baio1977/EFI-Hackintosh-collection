@@ -80,7 +80,7 @@ Node 0x12 (18) [Pin Complex] wcaps 0x40040B: Stereo Amp-In
   Pin Default 0x90A60160: [Fixed] Mic at Int N/A
     Conn = Digital, Color = Unknown
     DefAssociation = 0x6, Sequence = 0x0
-Pin-ctls: 0x00:
+Pin-ctls: 0x00: VREF_HIZ
 Node 0x13 (19) [Pin Complex] wcaps 0x40040B: Stereo Amp-In
   Amp-In caps: ofs=0x00, nsteps=0x03, stepsize=0x27, mute=0
   Amp-In vals:
@@ -88,7 +88,7 @@ Node 0x13 (19) [Pin Complex] wcaps 0x40040B: Stereo Amp-In
   Pin Default 0x411111F0: [None] Speaker at Ext Rear
     Conn = 1/8, Color = Black
     DefAssociation = 0xF, Sequence = 0x0
-Pin-ctls: 0x00:
+Pin-ctls: 0x00: VREF_HIZ
 Node 0x14 (20) [Pin Complex] wcaps 0x40058D: Stereo Amp-Out
   Amp-Out caps: ofs=0x00, nsteps=0x00, stepsize=0x00, mute=1
   Amp-Out vals: [0x00 0x00]
@@ -97,7 +97,7 @@ Node 0x14 (20) [Pin Complex] wcaps 0x40058D: Stereo Amp-Out
   Pin Default 0x90170120: [Fixed] Speaker at Int N/A
     Conn = Analog, Color = Unknown
     DefAssociation = 0x2, Sequence = 0x0
-Pin-ctls: 0x40: OUT
+Pin-ctls: 0x40: OUT VREF_HIZ
   Connection: 1
      0x02
 Node 0x15 (21) [Vendor Defined Widget] wcaps 0xF00000: Mono
@@ -106,38 +106,38 @@ Node 0x17 (23) [Vendor Defined Widget] wcaps 0xF00000: Mono
 Node 0x18 (24) [Pin Complex] wcaps 0x40048B: Stereo Amp-In
   Amp-In caps: ofs=0x00, nsteps=0x03, stepsize=0x27, mute=0
   Amp-In vals:
-  Pincap 0x00003724: IN Detect
+  Pincap 0x00003724: IN Detect VREF_HIZ VREF_GRD VREF_50 VREF_80 VREF_100
   Pin Default 0x411111F0: [None] Speaker at Ext Rear
     Conn = 1/8, Color = Black
     DefAssociation = 0xF, Sequence = 0x0
-Pin-ctls: 0x20: IN
+Pin-ctls: 0x20: IN VREF_HIZ
 Node 0x19 (25) [Pin Complex] wcaps 0x40048B: Stereo Amp-In
   Amp-In caps: ofs=0x00, nsteps=0x03, stepsize=0x27, mute=0
   Amp-In vals:
-  Pincap 0x00003724: IN Detect
+  Pincap 0x00003724: IN Detect VREF_HIZ VREF_GRD VREF_50 VREF_80 VREF_100
   Pin Default 0x411111F0: [None] Speaker at Ext Rear
     Conn = 1/8, Color = Black
     DefAssociation = 0xF, Sequence = 0x0
-Pin-ctls: 0x20: IN
+Pin-ctls: 0x20: IN VREF_HIZ
 Node 0x1A (26) [Pin Complex] wcaps 0x40048B: Stereo Amp-In
   Amp-In caps: ofs=0x00, nsteps=0x03, stepsize=0x27, mute=0
   Amp-In vals:
-  Pincap 0x00003724: IN Detect
+  Pincap 0x00003724: IN Detect VREF_HIZ VREF_GRD VREF_50 VREF_80 VREF_100
   Pin Default 0x411111F0: [None] Speaker at Ext Rear
     Conn = 1/8, Color = Black
     DefAssociation = 0xF, Sequence = 0x0
-Pin-ctls: 0x00:
+Pin-ctls: 0x00: VREF_HIZ
 Node 0x1B (27) [Pin Complex] wcaps 0x40058F: Stereo Amp-In Amp-Out
   Amp-In caps: ofs=0x00, nsteps=0x03, stepsize=0x27, mute=0
   Amp-In vals: [0x00 0x00] [0x00 0x00]
   Amp-Out caps: ofs=0x00, nsteps=0x00, stepsize=0x00, mute=1
   Amp-Out vals: [0x80 0x80]
-  Pincap 0x00013734: IN OUT EAPD Detect
+  Pincap 0x00013734: IN OUT EAPD Detect VREF_HIZ VREF_GRD VREF_50 VREF_80 VREF_100
   EAPD 0x2: EAPD
   Pin Default 0x411111F0: [None] Speaker at Ext Rear
     Conn = 1/8, Color = Black
     DefAssociation = 0xF, Sequence = 0x0
-Pin-ctls: 0x20: IN
+Pin-ctls: 0x20: IN VREF_HIZ
   Connection: 2
      0x02 0x03
 Node 0x1C (28) [Vendor Defined Widget] wcaps 0xF00000: Mono
@@ -146,13 +146,13 @@ Node 0x1D (29) [Pin Complex] wcaps 0x400400: Mono
   Pin Default 0x40700001: [None] Modem Handset at Ext N/A
     Conn = Unknown, Color = Unknown
     DefAssociation = 0x0, Sequence = 0x1
-Pin-ctls: 0x20: IN
+Pin-ctls: 0x20: IN VREF_HIZ
 Node 0x1E (30) [Pin Complex] wcaps 0x400781: Stereo Digital
   Pincap 0x00000014: OUT Detect
   Pin Default 0x411111F0: [None] Speaker at Ext Rear
     Conn = 1/8, Color = Black
     DefAssociation = 0xF, Sequence = 0x0
-Pin-ctls: 0x40: OUT
+Pin-ctls: 0x40: OUT VREF_HIZ
   Connection: 1
      0x06
 Node 0x1F (31) [Vendor Defined Widget] wcaps 0xF00000: Mono
@@ -165,7 +165,7 @@ Node 0x21 (33) [Pin Complex] wcaps 0x40058D: Stereo Amp-Out
   Pin Default 0x02211030: [Jack] HP Out at Ext Front
     Conn = 1/8, Color = Black
     DefAssociation = 0x3, Sequence = 0x0
-Pin-ctls: 0x00:
+Pin-ctls: 0x00: VREF_HIZ
   Connection: 2
      0x02 0x03
 Node 0x22 (34) [Audio Mixer] wcaps 0x20010B: Stereo Amp-In
