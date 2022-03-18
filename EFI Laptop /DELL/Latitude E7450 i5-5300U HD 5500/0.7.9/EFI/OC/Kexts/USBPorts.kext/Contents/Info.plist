@@ -47,9 +47,7 @@
 				<key>kUSBWakePowerSupply</key>
 				<integer>5100</integer>
 				<key>port-count</key>
-				<data>
-				AwAAAA==
-				</data>
+				<data>AwAAAA==</data>
 				<key>ports</key>
 				<dict>
 					<key>PR01</key>
@@ -59,9 +57,7 @@
 						<key>name</key>
 						<string>PR01</string>
 						<key>port</key>
-						<data>
-						AQAAAA==
-						</data>
+						<data>AQAAAA==</data>
 					</dict>
 					<key>PR12</key>
 					<dict>
@@ -70,9 +66,7 @@
 						<key>name</key>
 						<string>PR12</string>
 						<key>port</key>
-						<data>
-						AgAAAA==
-						</data>
+						<data>AgAAAA==</data>
 					</dict>
 					<key>PR13</key>
 					<dict>
@@ -81,9 +75,7 @@
 						<key>name</key>
 						<string>PR13</string>
 						<key>port</key>
-						<data>
-						AwAAAA==
-						</data>
+						<data>AwAAAA==</data>
 					</dict>
 				</dict>
 			</dict>
@@ -106,18 +98,8 @@
 			<string>AppleUSBXHCIWPT</string>
 			<key>IOProviderMergeProperties</key>
 			<dict>
-				<key>kUSBSleepPortCurrentLimit</key>
-				<integer>2100</integer>
-				<key>kUSBSleepPowerSupply</key>
-				<integer>5100</integer>
-				<key>kUSBWakePortCurrentLimit</key>
-				<integer>2100</integer>
-				<key>kUSBWakePowerSupply</key>
-				<integer>5100</integer>
 				<key>port-count</key>
-				<data>
-				DwAAAA==
-				</data>
+				<data>DwAAAA==</data>
 				<key>ports</key>
 				<dict>
 					<key>HS01</key>
@@ -127,9 +109,7 @@
 						<key>name</key>
 						<string>HS01</string>
 						<key>port</key>
-						<data>
-						AQAAAA==
-						</data>
+						<data>AQAAAA==</data>
 					</dict>
 					<key>HS02</key>
 					<dict>
@@ -138,9 +118,7 @@
 						<key>name</key>
 						<string>HS02</string>
 						<key>port</key>
-						<data>
-						AgAAAA==
-						</data>
+						<data>AgAAAA==</data>
 					</dict>
 					<key>HS04</key>
 					<dict>
@@ -149,9 +127,7 @@
 						<key>name</key>
 						<string>HS04</string>
 						<key>port</key>
-						<data>
-						BAAAAA==
-						</data>
+						<data>BAAAAA==</data>
 					</dict>
 					<key>HS08</key>
 					<dict>
@@ -160,9 +136,7 @@
 						<key>name</key>
 						<string>HS08</string>
 						<key>port</key>
-						<data>
-						CAAAAA==
-						</data>
+						<data>CAAAAA==</data>
 					</dict>
 					<key>SS01</key>
 					<dict>
@@ -171,9 +145,7 @@
 						<key>name</key>
 						<string>SS01</string>
 						<key>port</key>
-						<data>
-						DAAAAA==
-						</data>
+						<data>DAAAAA==</data>
 					</dict>
 					<key>SS02</key>
 					<dict>
@@ -182,9 +154,7 @@
 						<key>name</key>
 						<string>SS02</string>
 						<key>port</key>
-						<data>
-						DQAAAA==
-						</data>
+						<data>DQAAAA==</data>
 					</dict>
 					<key>SS04</key>
 					<dict>
@@ -193,9 +163,7 @@
 						<key>name</key>
 						<string>SS04</string>
 						<key>port</key>
-						<data>
-						DwAAAA==
-						</data>
+						<data>DwAAAA==</data>
 					</dict>
 				</dict>
 			</dict>

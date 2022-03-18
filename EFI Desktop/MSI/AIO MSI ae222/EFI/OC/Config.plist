@@ -36,14 +36,6 @@
                     <key>Enabled</key>
                     <true/>
                     <key>Path</key>
-                    <string>SSDT-HPET.aml</string>
-                </dict>
-                <dict>
-                    <key>Comment</key>
-                    <string></string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>Path</key>
                     <string>SSDT-MCHC_SBUS.aml</string>
                 </dict>
                 <dict>
@@ -54,14 +46,6 @@
                     <key>Path</key>
                     <string>SSDT-PLUG.aml</string>
                 </dict>
-                <dict>
-                    <key>Comment</key>
-                    <string></string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>Path</key>
-                    <string>SSDT-SLPB.aml</string>
-                </dict>
             </array>
             <key>Delete</key>
             <array>
@@ -71,7 +55,7 @@
                     <key>Comment</key>
                     <string>Delete CpuPm</string>
                     <key>Enabled</key>
-                    <false/>
+                    <true/>
                     <key>OemTableId</key>
                     <data>Q3B1UG0AAAA=</data>
                     <key>TableLength</key>
@@ -85,7 +69,7 @@
                     <key>Comment</key>
                     <string>Delete Cpu0Ist</string>
                     <key>Enabled</key>
-                    <false/>
+                    <true/>
                     <key>OemTableId</key>
                     <data>Q3B1MElzdAA=</data>
                     <key>TableLength</key>
@@ -95,98 +79,7 @@
                 </dict>
             </array>
             <key>Patch</key>
-            <array>
-                <dict>
-                    <key>Base</key>
-                    <string></string>
-                    <key>BaseSkip</key>
-                    <integer>0</integer>
-                    <key>Comment</key>
-                    <string>HPET _CRS to XCRS Rename</string>
-                    <key>Count</key>
-                    <integer>0</integer>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>Find</key>
-                    <data>BV9DUlM=</data>
-                    <key>Limit</key>
-                    <integer>0</integer>
-                    <key>Mask</key>
-                    <data></data>
-                    <key>OemTableId</key>
-                    <data>AAAAAA==</data>
-                    <key>Replace</key>
-                    <data>BVhDUlM=</data>
-                    <key>ReplaceMask</key>
-                    <data></data>
-                    <key>Skip</key>
-                    <integer>0</integer>
-                    <key>TableLength</key>
-                    <integer>0</integer>
-                    <key>TableSignature</key>
-                    <data></data>
-                </dict>
-                <dict>
-                    <key>Base</key>
-                    <string></string>
-                    <key>BaseSkip</key>
-                    <integer>0</integer>
-                    <key>Comment</key>
-                    <string>RTC IRQ 8 Patch</string>
-                    <key>Count</key>
-                    <integer>0</integer>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>Find</key>
-                    <data>IgABeQA=</data>
-                    <key>Limit</key>
-                    <integer>0</integer>
-                    <key>Mask</key>
-                    <data></data>
-                    <key>OemTableId</key>
-                    <data>AAAAAA==</data>
-                    <key>Replace</key>
-                    <data>IgAAeQA=</data>
-                    <key>ReplaceMask</key>
-                    <data></data>
-                    <key>Skip</key>
-                    <integer>0</integer>
-                    <key>TableLength</key>
-                    <integer>0</integer>
-                    <key>TableSignature</key>
-                    <data></data>
-                </dict>
-                <dict>
-                    <key>Base</key>
-                    <string></string>
-                    <key>BaseSkip</key>
-                    <integer>0</integer>
-                    <key>Comment</key>
-                    <string>TIMR IRQ 0 Patch</string>
-                    <key>Count</key>
-                    <integer>0</integer>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>Find</key>
-                    <data>IgEAeQA=</data>
-                    <key>Limit</key>
-                    <integer>0</integer>
-                    <key>Mask</key>
-                    <data></data>
-                    <key>OemTableId</key>
-                    <data>AAAAAA==</data>
-                    <key>Replace</key>
-                    <data>IgAAeQA=</data>
-                    <key>ReplaceMask</key>
-                    <data></data>
-                    <key>Skip</key>
-                    <integer>0</integer>
-                    <key>TableLength</key>
-                    <integer>0</integer>
-                    <key>TableSignature</key>
-                    <data></data>
-                </dict>
-            </array>
+            <array/>
             <key>Quirks</key>
             <dict>
                 <key>FadtEnableReset</key>
@@ -260,7 +153,7 @@
                 <key>PciRoot(0x0)/Pci(0x1B,0x0)</key>
                 <dict>
                     <key>layout-id</key>
-                    <integer>17</integer>
+                    <integer>20</integer>
                 </dict>
                 <key>PciRoot(0x0)/Pci(0x2,0x0)</key>
                 <dict>
@@ -268,14 +161,36 @@
                     <data>AwAiDQ==</data>
                     <key>AAPL,slot-name</key>
                     <string>Internal@0,2,0</string>
+                    <key>device-id</key>
+                    <data>EgQAAA==</data>
                     <key>device_type</key>
                     <string>VGA compatible controller</string>
+                    <key>enable-hdmi20</key>
+                    <data>AQAAAA==</data>
+                    <key>framebuffer-con0-enable</key>
+                    <data>AQAAAA==</data>
+                    <key>framebuffer-con0-type</key>
+                    <data>AAgAAA==</data>
+                    <key>framebuffer-con1-enable</key>
+                    <data>AQAAAA==</data>
+                    <key>framebuffer-con1-type</key>
+                    <data>AAgAAA==</data>
+                    <key>framebuffer-con2-enable</key>
+                    <data>AQAAAA==</data>
+                    <key>framebuffer-con2-type</key>
+                    <data>AAgAAA==</data>
+                    <key>framebuffer-con3-busid</key>
+                    <data>AQAAAA==</data>
+                    <key>framebuffer-con3-enable</key>
+                    <data>AQAAAA==</data>
+                    <key>framebuffer-con3-flags</key>
+                    <data>hwAAAA==</data>
                     <key>framebuffer-patch-enable</key>
                     <data>AQAAAA==</data>
                     <key>hda-gfx</key>
                     <string>onboard-1</string>
                     <key>model</key>
-                    <string>Intel HD Graphics 4600</string>
+                    <string>Intel Graphics HD 4600 (Haswell)</string>
                 </dict>
             </dict>
             <key>Delete</key>
@@ -309,7 +224,7 @@
                     <key>BundlePath</key>
                     <string>VirtualSMC.kext</string>
                     <key>Comment</key>
-                    <string>V1.2.8</string>
+                    <string>V1.2.9</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -327,7 +242,7 @@
                     <key>BundlePath</key>
                     <string>SMCProcessor.kext</string>
                     <key>Comment</key>
-                    <string>V1.2.8 | SMCProcessor.kext</string>
+                    <string>V1.2.9</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -345,7 +260,7 @@
                     <key>BundlePath</key>
                     <string>SMCSuperIO.kext</string>
                     <key>Comment</key>
-                    <string>V1.2.8 | SMCSuperIO.kext</string>
+                    <string>V1.2.9</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -363,7 +278,7 @@
                     <key>BundlePath</key>
                     <string>WhateverGreen.kext</string>
                     <key>Comment</key>
-                    <string>V1.5.7 | WhateverGreen.kext</string>
+                    <string>V1.5.8 | WhateverGreen.kext</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -381,7 +296,7 @@
                     <key>BundlePath</key>
                     <string>AppleALC.kext</string>
                     <key>Comment</key>
-                    <string>V1.6.9 | AppleALC.kext</string>
+                    <string>V1.7.0 | AppleALC.kext</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -404,24 +319,6 @@
                     <true/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/RealtekRTL8111</string>
-                    <key>MaxKernel</key>
-                    <string></string>
-                    <key>MinKernel</key>
-                    <string></string>
-                    <key>PlistPath</key>
-                    <string>Contents/Info.plist</string>
-                </dict>
-                <dict>
-                    <key>Arch</key>
-                    <string>Any</string>
-                    <key>BundlePath</key>
-                    <string>USBInjectAll.kext</string>
-                    <key>Comment</key>
-                    <string>V0.7.7</string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>ExecutablePath</key>
-                    <string>Contents/MacOS/USBInjectAll</string>
                     <key>MaxKernel</key>
                     <string></string>
                     <key>MinKernel</key>
@@ -608,7 +505,7 @@
                 <key>ScanPolicy</key>
                 <integer>0</integer>
                 <key>SecureBootModel</key>
-                <string>Disabled</string>
+                <string>Default</string>
                 <key>Vault</key>
                 <string>Optional</string>
             </dict>
@@ -718,7 +615,7 @@
                 <key>SystemMemoryStatus</key>
                 <string>Upgradable</string>
                 <key>SystemProductName</key>
-                <string>iMac16,2</string>
+                <string>iMac14,4</string>
                 <key>SystemSerialNumber</key>
                 <string>D25M30HTFY0T</string>
                 <key>SystemUUID</key>
