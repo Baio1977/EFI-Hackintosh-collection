@@ -153,20 +153,6 @@
 						<key>port</key>
 						<data>EgAAAA==</data>
 					</dict>
-					<key>USR1</key>
-					<dict>
-						<key>UsbConnector</key>
-						<integer>3</integer>
-						<key>port</key>
-						<data>CwAAAA==</data>
-					</dict>
-					<key>USR2</key>
-					<dict>
-						<key>UsbConnector</key>
-						<integer>3</integer>
-						<key>port</key>
-						<data>DAAAAA==</data>
-					</dict>
 				</dict>
 			</dict>
 			<key>model</key>
