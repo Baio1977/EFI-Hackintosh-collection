@@ -496,7 +496,7 @@
                     <key>Arch</key>
                     <string>Any</string>
                     <key>BundlePath</key>
-                    <string>AirportItlwmMonterey.kext</string>
+                    <string>AirportItlwm_Monterey.kext</string>
                     <key>Comment</key>
                     <string>V2.1.0</string>
                     <key>Enabled</key>
@@ -889,7 +889,7 @@
                     <key>Enabled</key>
                     <true/>
                     <key>Path</key>
-                    <string>OpenCanopy.efi</string>
+                    <string>AudioDxe.efi</string>
                 </dict>
                 <dict>
                     <key>Arguments</key>
@@ -899,7 +899,17 @@
                     <key>Enabled</key>
                     <true/>
                     <key>Path</key>
-                    <string>OpenHfsPlus.efi</string>
+                    <string>HfsPlus.efi</string>
+                </dict>
+                <dict>
+                    <key>Arguments</key>
+                    <string></string>
+                    <key>Comment</key>
+                    <string></string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>Path</key>
+                    <string>OpenCanopy.efi</string>
                 </dict>
                 <dict>
                     <key>Arguments</key>
@@ -919,7 +929,7 @@
                     <key>Enabled</key>
                     <true/>
                     <key>Path</key>
-                    <string>AudioDxe.efi</string>
+                    <string>TbtForcePower.efi</string>
                 </dict>
             </array>
             <key>Input</key>

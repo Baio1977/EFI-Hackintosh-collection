@@ -40,7 +40,32 @@
             <key>MmioWhitelist</key>
             <array/>
             <key>Patch</key>
-            <array/>
+            <array>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>Comment</key>
+                    <string>macOS to hacOS</string>
+                    <key>Count</key>
+                    <integer>1</integer>
+                    <key>Enabled</key>
+                    <false/>
+                    <key>Find</key>
+                    <data>bWFjT1M=</data>
+                    <key>Identifier</key>
+                    <string>Apple</string>
+                    <key>Limit</key>
+                    <integer>0</integer>
+                    <key>Mask</key>
+                    <data></data>
+                    <key>Replace</key>
+                    <data>aGFjT1M=</data>
+                    <key>ReplaceMask</key>
+                    <data></data>
+                    <key>Skip</key>
+                    <integer>0</integer>
+                </dict>
+            </array>
             <key>Quirks</key>
             <dict>
                 <key>AllowRelocationBlock</key>
@@ -307,7 +332,7 @@
                 <key>DisableLinkeditJettison</key>
                 <true/>
                 <key>DisableRtcChecksum</key>
-                <true/>
+                <false/>
                 <key>ExtendBTFeatureFlags</key>
                 <false/>
                 <key>ExternalDiskIcons</key>
@@ -427,7 +452,7 @@
                 <key>AllowSetDefault</key>
                 <true/>
                 <key>AllowToggleSip</key>
-                <false/>
+                <true/>
                 <key>ApECID</key>
                 <integer>0</integer>
                 <key>AuthRestart</key>
@@ -622,7 +647,7 @@
                 <key>AudioDevice</key>
                 <string>PciRoot(0x0)/Pci(0x1F,0x3)</string>
                 <key>AudioOutMask</key>
-                <integer>15</integer>
+                <integer>1</integer>
                 <key>AudioSupport</key>
                 <true/>
                 <key>DisconnectHda</key>
@@ -662,7 +687,7 @@
                     <key>Enabled</key>
                     <true/>
                     <key>Path</key>
-                    <string>OpenCanopy.efi</string>
+                    <string>CrScreenshotDxe.efi</string>
                 </dict>
                 <dict>
                     <key>Arguments</key>
@@ -672,7 +697,17 @@
                     <key>Enabled</key>
                     <true/>
                     <key>Path</key>
-                    <string>OpenHfsPlus.efi</string>
+                    <string>HFSPlus.efi</string>
+                </dict>
+                <dict>
+                    <key>Arguments</key>
+                    <string></string>
+                    <key>Comment</key>
+                    <string></string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>Path</key>
+                    <string>OpenCanopy.efi</string>
                 </dict>
                 <dict>
                     <key>Arguments</key>
