@@ -1,4 +1,4 @@
-
+5
 Clover EFI installer log - Sun Oct 18 12:57:54 CEST 2020
 Installer version: r5122 (commit: f4e10b1a2) EFI bootloader
 ======================================================
