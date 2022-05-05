@@ -7,7 +7,7 @@
 # EFI-Varie-Hackintosh
 Raccolta EFI Hackintosh di vari HW Laptop e Desktop
 
-### Laptop
+ - Per le modifiche ACPI qui : [link](https://github.com/Baio1977/OC-Little-Translated)
 
 [link](https://github.com/Baio1977/EFI-Varie-Hackintosh/tree/main/EFI%20Laptop%20)
 
