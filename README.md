@@ -4,10 +4,10 @@
 [![](https://img.shields.io/badge/Facebook-HackintoshLifeIT-informational?style=flat&logo=facebook&logoColor=white&color=3a4dc9)](https://www.facebook.com/hackintoshlife/)
 [![](https://img.shields.io/badge/Instagram-HackintoshLifeIT-informational?style=flat&logo=instagram&logoColor=white&color=8a178a)](https://www.instagram.com/hackintoshlife.it_official/)
 
-# EFI-Varie-Hackintosh
-Raccolta EFI Hackintosh di vari HW Laptop e Desktop
+# EFI Hackintosh
+EFI Hackintosh collection of various HW Laptops and Desktops.
 
- - Per le modifiche ACPI e non solo : [link](https://github.com/5T33Z0/OC-Little-Translated)
+For ACPI changes and more : [link](https://github.com/5T33Z0/OC-Little-Translated)
 
 [link](https://github.com/Baio1977/EFI-Varie-Hackintosh/tree/main/EFI%20Laptop%20)
 
@@ -19,4 +19,4 @@ Raccolta EFI Hackintosh di vari HW Laptop e Desktop
 
 [link](https://github.com/Baio1977/EFI-Varie-Hackintosh/tree/main/Themes%20EFI)   
 
-# Se hai bisogno di supporto qui [Telegram](https://t.me/HackintoshLife_it)
+# If you need support [Telegram](https://t.me/HackintoshLife_it)
