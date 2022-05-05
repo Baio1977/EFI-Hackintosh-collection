@@ -9,6 +9,8 @@ EFI Hackintosh collection of various HW Laptops and Desktops.
 
 For ACPI changes and more : [link](https://github.com/5T33Z0/OC-Little-Translated)
 
+### Laptop
+
 [link](https://github.com/Baio1977/EFI-Varie-Hackintosh/tree/main/EFI%20Laptop%20)
 
 ### Desktop
