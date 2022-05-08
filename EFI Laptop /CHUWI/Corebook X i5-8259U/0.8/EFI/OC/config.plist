@@ -540,7 +540,7 @@
                     <key>Arch</key>
                     <string>Any</string>
                     <key>BundlePath</key>
-                    <string>AirportItlwm_Cata.kext</string>
+                    <string>AirportItlwm_Monterey.kext</string>
                     <key>Comment</key>
                     <string>V2.1.0</string>
                     <key>Enabled</key>
@@ -558,13 +558,13 @@
                     <key>Arch</key>
                     <string>Any</string>
                     <key>BundlePath</key>
-                    <string>IntelBluetoothInjector.kext</string>
+                    <string>BlueToolFixup.kext</string>
                     <key>Comment</key>
-                    <string>V2.1.0</string>
+                    <string>V2.6.1</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
-                    <string></string>
+                    <string>Contents/MacOS/BlueToolFixup</string>
                     <key>MaxKernel</key>
                     <string></string>
                     <key>MinKernel</key>
@@ -698,7 +698,7 @@
                 <key>HibernateMode</key>
                 <string>None</string>
                 <key>HideAuxiliary</key>
-                <true/>
+                <false/>
                 <key>LauncherOption</key>
                 <string>Full</string>
                 <key>LauncherPath</key>
