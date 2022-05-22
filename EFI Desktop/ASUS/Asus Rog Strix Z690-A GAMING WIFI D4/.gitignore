@@ -1,0 +1,10 @@
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+.AppleDouble
+.LSOverride
+.contentFlavour
+
+# IDEA generated config
+.idea

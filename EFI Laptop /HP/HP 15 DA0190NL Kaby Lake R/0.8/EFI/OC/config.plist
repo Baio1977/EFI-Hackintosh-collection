@@ -761,7 +761,7 @@
                 <key>AllowSetDefault</key>
                 <true/>
                 <key>AllowToggleSip</key>
-                <false/>
+                <true/>
                 <key>ApECID</key>
                 <integer>0</integer>
                 <key>AuthRestart</key>
@@ -899,7 +899,7 @@
                 <key>SystemMemoryStatus</key>
                 <string>Upgradable</string>
                 <key>SystemProductName</key>
-                <string>MacBookPro14,1</string>
+                <string>MacBookPro15,2</string>
                 <key>SystemSerialNumber</key>
                 <string>C02YD8YDHV29</string>
                 <key>SystemUUID</key>
