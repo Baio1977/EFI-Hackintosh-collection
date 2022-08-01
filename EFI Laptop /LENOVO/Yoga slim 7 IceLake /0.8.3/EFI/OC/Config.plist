@@ -8,123 +8,11 @@
             <array>
                 <dict>
                     <key>Comment</key>
-                    <string></string>
+                    <string>SSDT Hack</string>
                     <key>Enabled</key>
                     <true/>
                     <key>Path</key>
-                    <string>SSDT-ACAD.aml</string>
-                </dict>
-                <dict>
-                    <key>Comment</key>
-                    <string></string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>Path</key>
-                    <string>SSDT-AWAC.aml</string>
-                </dict>
-                <dict>
-                    <key>Comment</key>
-                    <string></string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>Path</key>
-                    <string>SSDT-DMAC.aml</string>
-                </dict>
-                <dict>
-                    <key>Comment</key>
-                    <string></string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>Path</key>
-                    <string>SSDT-EC-USBX_Laptop.aml</string>
-                </dict>
-                <dict>
-                    <key>Comment</key>
-                    <string></string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>Path</key>
-                    <string>SSDT-ECRW.aml</string>
-                </dict>
-                <dict>
-                    <key>Comment</key>
-                    <string></string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>Path</key>
-                    <string>SSDT-GPI0_GPHD.aml</string>
-                </dict>
-                <dict>
-                    <key>Comment</key>
-                    <string></string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>Path</key>
-                    <string>SSDT-GPRW.aml</string>
-                </dict>
-                <dict>
-                    <key>Comment</key>
-                    <string></string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>Path</key>
-                    <string>SSDT-HPET_Disable.aml</string>
-                </dict>
-                <dict>
-                    <key>Comment</key>
-                    <string></string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>Path</key>
-                    <string>SSDT-MCHC.aml</string>
-                </dict>
-                <dict>
-                    <key>Comment</key>
-                    <string></string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>Path</key>
-                    <string>SSDT-PLUG.aml</string>
-                </dict>
-                <dict>
-                    <key>Comment</key>
-                    <string></string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>Path</key>
-                    <string>SSDT-PMCR.aml</string>
-                </dict>
-                <dict>
-                    <key>Comment</key>
-                    <string></string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>Path</key>
-                    <string>SSDT-PNLF-CFL.aml</string>
-                </dict>
-                <dict>
-                    <key>Comment</key>
-                    <string></string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>Path</key>
-                    <string>SSDT-RCSM.aml</string>
-                </dict>
-                <dict>
-                    <key>Comment</key>
-                    <string></string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>Path</key>
-                    <string>SSDT-SRAM.aml</string>
-                </dict>
-                <dict>
-                    <key>Comment</key>
-                    <string></string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>Path</key>
-                    <string>SSDT-XSPI.aml</string>
+                    <string>SSDT-Yoga_slim7_IceLake.aml</string>
                 </dict>
             </array>
             <key>Delete</key>
@@ -192,38 +80,13 @@
                 </dict>
             </array>
             <key>Patch</key>
-            <array>
-                <dict>
-                    <key>Arch</key>
-                    <string>Any</string>
-                    <key>Comment</key>
-                    <string>macOS to hacOS</string>
-                    <key>Count</key>
-                    <integer>1</integer>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>Find</key>
-                    <data>bWFjT1M=</data>
-                    <key>Identifier</key>
-                    <string>Apple</string>
-                    <key>Limit</key>
-                    <integer>0</integer>
-                    <key>Mask</key>
-                    <data></data>
-                    <key>Replace</key>
-                    <data>aGFjT1M=</data>
-                    <key>ReplaceMask</key>
-                    <data></data>
-                    <key>Skip</key>
-                    <integer>0</integer>
-                </dict>
-            </array>
+            <array/>
             <key>Quirks</key>
             <dict>
                 <key>AllowRelocationBlock</key>
                 <false/>
                 <key>AvoidRuntimeDefrag</key>
-                <false/>
+                <true/>
                 <key>DevirtualiseMmio</key>
                 <true/>
                 <key>DisableSingleUser</key>
@@ -356,17 +219,6 @@
                     <key>model</key>
                     <string>Ice Lake-LP PCI Express Root Port</string>
                 </dict>
-                <key>PciRoot(0x0)/Pci(0x1C,0x6)/Pci(0x0,0x0)</key>
-                <dict>
-                    <key>AAPL,slot-name</key>
-                    <string>Internal@0,28,6/0,0</string>
-                    <key>brcmfx-country</key>
-                    <string>#a</string>
-                    <key>device_type</key>
-                    <string>Network controller</string>
-                    <key>model</key>
-                    <string>BCM43602 802.11ac Wireless LAN SoC</string>
-                </dict>
                 <key>PciRoot(0x0)/Pci(0x1C,0x7)</key>
                 <dict>
                     <key>AAPL,slot-name</key>
@@ -392,7 +244,7 @@
                     <key>device_type</key>
                     <string>Non-Volatile memory controller</string>
                     <key>model</key>
-                    <string>NVMe SSD Controller Samsung 970 Pro</string>
+                    <string>NVMe SSD Controller Samsung 980 Pro</string>
                 </dict>
                 <key>PciRoot(0x0)/Pci(0x1D,0x4)</key>
                 <dict>
@@ -429,8 +281,6 @@
                     <string>Audio Controller</string>
                     <key>hda-gfx</key>
                     <string>onboard-1</string>
-                    <key>layout-id</key>
-                    <integer>21</integer>
                 </dict>
                 <key>PciRoot(0x0)/Pci(0x1F,0x5)</key>
                 <dict>
@@ -446,9 +296,9 @@
                     <key>AAPL,GfxYTile</key>
                     <data>AQAAAA==</data>
                     <key>AAPL,ig-platform-id</key>
-                    <data>AgBRig==</data>
+                    <data>AQBcig==</data>
                     <key>device-id</key>
-                    <data>UYoAAA==</data>
+                    <data>XIoAAA==</data>
                     <key>enable-backlight-registers-fix</key>
                     <data>AQAAAA==</data>
                     <key>enable-cdclk-frequency-fix</key>
@@ -1117,7 +967,7 @@
                 <key>EnablePassword</key>
                 <false/>
                 <key>ExposeSensitiveData</key>
-                <integer>6</integer>
+                <integer>3</integer>
                 <key>HaltLevel</key>
                 <integer>2147483648</integer>
                 <key>PasswordHash</key>
@@ -1158,9 +1008,9 @@
                 <key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
                 <dict>
                     <key>boot-args</key>
-                    <string>-v -noDC9 igfxfw=2 debug=0x100 keepsyms=1</string>
+                    <string>-v -noDC9 alcid=21 debug=0x100 keepsyms=1</string>
                     <key>csr-active-config</key>
-                    <data>AAAAAA==</data>
+                    <data>/w8AAA==</data>
                     <key>prev-lang:kbd</key>
                     <string></string>
                     <key>run-efi-updater</key>

@@ -1,7 +1,7 @@
 CPU BrandString: Intel(R) Core(TM) i5-7300U CPU @ 2.60GHz
-MicrocodeRevision: 0x0000009A
+MicrocodeRevision: 0x000000F0
 Virtualization 0
-CPUID 000806E9 00100800 7FFAFBFF BFEBFBFF
+CPUID 000806E9 00100800 77FAFBFF BFEBFBFF
 ExtSigEcx 00000121
 ExtSigEdx 2C100800
 Type 0x00
@@ -10,7 +10,7 @@ Model 0x8E
 ExtModel 0x08
 ExtFamily 0x00
 Stepping 0x09
-Features 0x7FFAFBFFBFEBFBFF
+Features 0x77FAFBFFBFEBFBFF
 ExtFeatures 0x000001212C100800
 Signature 0x000806E9
 Brand 0x00
@@ -25,7 +25,7 @@ ThreadCount 4
 ExternalClock 100
 ARTFrequency 24000000
 CPUFrequency 2712000000
-CPUFrequencyFromTSC 2711999955
+CPUFrequencyFromTSC 2711994928
 CPUFrequencyFromART 2712000000
 TscAdjust 0
 CPUFrequencyFromApple 0
