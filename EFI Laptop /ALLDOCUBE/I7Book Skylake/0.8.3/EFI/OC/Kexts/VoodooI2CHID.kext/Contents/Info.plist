@@ -361,13 +361,13 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.alexandred.VoodooI2CHID</string>
 			<key>IOClass</key>
-			<string>VoodooI2CHIDSYNA3602&amp;Col2Device</string>
+			<string>VoodooI2CHIDSYNA3602Device</string>
 			<key>IOProbeScore</key>
 			<integer>200</integer>
 			<key>IOPropertyMatch</key>
 			<dict>
 				<key>name</key>
-				<string>SYNA3602&amp;Col2</string>
+				<string>SYNA3602</string>
 			</dict>
 			<key>IOProviderClass</key>
 			<string>VoodooI2CDeviceNub</string>
