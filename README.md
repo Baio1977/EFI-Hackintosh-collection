@@ -26,5 +26,6 @@ For ACPI changes and more : [link](https://github.com/5T33Z0/OC-Little-Translate
  - The size of the repository matters , I am forced to change the content of the EFI .
    So from today you will no longer download the entire EFIs but only the ACPI folder - Config.plist - Kext folder.
    These files will be overwritten in the EFI Release downloaded from the official Opencore repository.
+   https://github.com/acidanthera/OpenCorePkg/releases
 
 # If you need support [Telegram](https://t.me/HackintoshLife_it)
