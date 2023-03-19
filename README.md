@@ -21,4 +21,10 @@ For ACPI changes and more : [link](https://github.com/5T33Z0/OC-Little-Translate
 
 [link](https://github.com/Baio1977/EFI-Varie-Hackintosh/tree/main/Themes%20EFI)   
 
+## EDIT 19\03\2023
+
+ - The size of the repository matters , I am forced to change the content of the EFI .
+   So from today you will no longer download the entire EFIs but only the ACPI folder - Config.plist - Kext folder.
+   These files will be overwritten in the EFI Release downloaded from the official Opencore repository.
+
 # If you need support [Telegram](https://t.me/HackintoshLife_it)
