@@ -1,3 +1,0 @@
-Device path: PciRoot(0x0)/Pci(0x3,0x0)
-Controller: Intel Ivy Bridge/Haswell HD Audio Controller
-Vendor Id: 0xC0C8086
