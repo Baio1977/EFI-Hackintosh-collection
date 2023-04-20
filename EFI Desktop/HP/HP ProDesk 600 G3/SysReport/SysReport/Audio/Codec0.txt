@@ -1,0 +1,185 @@
+Device path: PciRoot(0x0)/Pci(0x1F,0x3)/VenMsg(A9003FEB-D806-41DB-A491-5405FEEF46C3,00000000)
+Address: 0x0
+
+Codec: Conexant CX20632
+AFG Function Id: 0x1 (unsol 1)
+Vendor Id: 0x14F15098
+Revision Id: 0x100100
+Default PCM:
+    rates [0x160]: 44100 48000 96000
+    bits [0xE]: 16 20 24
+    formats [0x1]: PCM
+Default Amp-In caps: N/A
+Default Amp-Out caps: N/A
+Node 0x10 (16) [Audio Output] wcaps 0xC1D: Stereo Amp-Out R/L
+  Amp-Out caps: ofs=0x4A, nsteps=0x4A, stepsize=0x03, mute=1
+  Amp-Out vals: [0x3C 0x3C]
+  Converter: stream=0, channel=0
+  PCM:
+    rates [0x560]: 44100 48000 96000 192000
+    bits [0xE]: 16 20 24
+    formats [0x1]: PCM
+Node 0x11 (17) [Audio Output] wcaps 0xC1D: Stereo Amp-Out R/L
+  Amp-Out caps: ofs=0x4A, nsteps=0x4A, stepsize=0x03, mute=1
+  Amp-Out vals: [0x3C 0x3C]
+  Converter: stream=0, channel=0
+  PCM:
+    rates [0x560]: 44100 48000 96000 192000
+    bits [0xE]: 16 20 24
+    formats [0x1]: PCM
+Node 0x12 (18) [Audio Output] wcaps 0x611: Stereo Digital
+  Converter: stream=0, channel=0
+  PCM:
+    rates [0x5E0]: 44100 48000 88200 96000 192000
+    bits [0xE]: 16 20 24
+    formats [0x5]: PCM AC3
+Node 0x13 (19) [Beep Generator Widget] wcaps 0x70000C: Mono Amp-Out
+  Amp-Out caps: ofs=0x07, nsteps=0x07, stepsize=0x0F, mute=0
+  Amp-Out vals: [0x07]
+Node 0x14 (20) [Audio Input] wcaps 0x100D1B: Stereo Amp-In R/L
+  Amp-In caps: ofs=0x4A, nsteps=0x50, stepsize=0x03, mute=1
+  Amp-In vals: [0x4A 0x4A] [0x4A 0x4A] [0x4A 0x4A] [0x4A 0x4A]
+  Converter: stream=0, channel=0
+  PCM:
+    rates [0x160]: 44100 48000 96000
+    bits [0xE]: 16 20 24
+    formats [0x1]: PCM
+  Connection: 4
+     0x1A 0x1B 0x1D 0x1E
+Node 0x15 (21) [Audio Input] wcaps 0x100D1B: Stereo Amp-In R/L
+  Amp-In caps: ofs=0x4A, nsteps=0x50, stepsize=0x03, mute=1
+  Amp-In vals: [0x4A 0x4A] [0x4A 0x4A] [0x4A 0x4A] [0x4A 0x4A]
+  Converter: stream=0, channel=0
+  PCM:
+    rates [0x160]: 44100 48000 96000
+    bits [0xE]: 16 20 24
+    formats [0x1]: PCM
+  Connection: 4
+     0x1A 0x1B 0x1D 0x1E
+Node 0x16 (22) [Audio Input] wcaps 0x100D1B: Stereo Amp-In R/L
+  Amp-In caps: ofs=0x4A, nsteps=0x50, stepsize=0x03, mute=1
+  Amp-In vals: [0x4A 0x4A]
+  Converter: stream=0, channel=0
+  PCM:
+    rates [0x160]: 44100 48000 96000
+    bits [0xE]: 16 20 24
+    formats [0x1]: PCM
+  Connection: 1
+     0x22
+Node 0x17 (23) [Audio Output] wcaps 0xC1D: Stereo Amp-Out R/L
+  Amp-Out caps: ofs=0x4A, nsteps=0x4A, stepsize=0x03, mute=1
+  Amp-Out vals: [0x00 0x00]
+  Converter: stream=0, channel=0
+  PCM:
+    rates [0x560]: 44100 48000 96000 192000
+    bits [0xE]: 16 20 24
+    formats [0x1]: PCM
+Node 0x18 (24) [Pin Complex] wcaps 0x400581: Stereo
+  Pincap 0x00010014: OUT EAPD Detect
+  EAPD 0x2: EAPD
+  Pin Default 0x40F001F0: [None] Other at Ext N/A
+    Conn = Unknown, Color = Unknown
+    DefAssociation = 0xF, Sequence = 0x0
+Pin-ctls: 0x40: OUT VREF_HIZ
+  Connection: 3
+     0x10 0x11 0x17
+Node 0x19 (25) [Pin Complex] wcaps 0x400581: Stereo
+  Pincap 0x0000001C: OUT HP Detect
+  Pin Default 0x02211040: [Jack] HP Out at Ext Front
+    Conn = 1/8, Color = Black
+    DefAssociation = 0x4, Sequence = 0x0
+Pin-ctls: 0x00: VREF_HIZ
+  Connection: 3
+     0x10 0x11 0x17
+Node 0x1A (26) [Pin Complex] wcaps 0x40048B: Stereo Amp-In
+  Amp-In caps: ofs=0x00, nsteps=0x04, stepsize=0x27, mute=0
+  Amp-In vals:
+  Pincap 0x00001324: IN Detect VREF_HIZ VREF_50 VREF_80
+  Pin Default 0x02A11020: [Jack] Mic at Ext Front
+    Conn = 1/8, Color = Black
+    DefAssociation = 0x2, Sequence = 0x0
+Pin-ctls: 0x00: VREF_HIZ
+Node 0x1B (27) [Pin Complex] wcaps 0x40058B: Stereo Amp-In
+  Amp-In caps: ofs=0x00, nsteps=0x04, stepsize=0x27, mute=0
+  Amp-In vals: [0x00 0x00] [0x00 0x00] [0x00 0x00]
+  Pincap 0x00011334: IN OUT EAPD Detect VREF_HIZ VREF_50 VREF_80
+  EAPD 0x2: EAPD
+  Pin Default 0x40F001F0: [None] Other at Ext N/A
+    Conn = Unknown, Color = Unknown
+    DefAssociation = 0xF, Sequence = 0x0
+Pin-ctls: 0x00: VREF_HIZ
+  Connection: 3
+     0x10 0x11 0x17
+Node 0x1C (28) [Pin Complex] wcaps 0x400581: Stereo
+  Pincap 0x0000001C: OUT HP Detect
+  Pin Default 0x01011010: [Jack] Line Out at Ext Rear
+    Conn = 1/8, Color = Black
+    DefAssociation = 0x1, Sequence = 0x0
+Pin-ctls: 0x00: VREF_HIZ
+  Connection: 3
+     0x10 0x11 0x17
+Node 0x1D (29) [Pin Complex] wcaps 0x40058B: Stereo Amp-In
+  Amp-In caps: ofs=0x00, nsteps=0x04, stepsize=0x27, mute=0
+  Amp-In vals: [0x00 0x00] [0x00 0x00] [0x00 0x00]
+  Pincap 0x00010034: IN OUT EAPD Detect
+  EAPD 0x2: EAPD
+  Pin Default 0x01811030: [Jack] Line In at Ext Rear
+    Conn = 1/8, Color = Black
+    DefAssociation = 0x3, Sequence = 0x0
+Pin-ctls: 0x00: VREF_HIZ
+  Connection: 3
+     0x10 0x11 0x17
+Node 0x1E (30) [Pin Complex] wcaps 0x40040B: Stereo Amp-In
+  Amp-In caps: ofs=0x00, nsteps=0x04, stepsize=0x2F, mute=0
+  Amp-In vals:
+  Pincap 0x00000020: IN
+  Pin Default 0x40F001F0: [None] Other at Ext N/A
+    Conn = Unknown, Color = Unknown
+    DefAssociation = 0xF, Sequence = 0x0
+Pin-ctls: 0x00: VREF_HIZ
+Node 0x1F (31) [Pin Complex] wcaps 0x400501: Stereo
+  Pincap 0x00000010: OUT
+  Pin Default 0x9217011F: [Fixed] Speaker at Int Front
+    Conn = Analog, Color = Unknown
+    DefAssociation = 0x1, Sequence = 0xF
+Pin-ctls: 0x00: VREF_HIZ
+  Connection: 3
+     0x10 0x11 0x17
+Node 0x20 (32) [Pin Complex] wcaps 0x400781: Stereo Digital
+  Pincap 0x00000014: OUT Detect
+  Pin Default 0x40F001F0: [None] Other at Ext N/A
+    Conn = Unknown, Color = Unknown
+    DefAssociation = 0xF, Sequence = 0x0
+Pin-ctls: 0x00: VREF_HIZ
+  Connection: 1
+     0x12
+Node 0x21 (33) [Pin Complex] wcaps 0x400501: Stereo
+  Pincap 0x00010010: OUT EAPD
+  EAPD 0x2: EAPD
+  Pin Default 0x40F001F0: [None] Other at Ext N/A
+    Conn = Unknown, Color = Unknown
+    DefAssociation = 0xF, Sequence = 0x0
+Pin-ctls: 0x40: OUT VREF_HIZ
+  Connection: 3
+     0x10 0x11 0x17
+Node 0x22 (34) [Audio Mixer] wcaps 0x20050B: Stereo Amp-In
+  Amp-In caps: ofs=0x4A, nsteps=0x4A, stepsize=0x03, mute=1
+  Amp-In vals: [0x00 0x00] [0x00 0x00] [0x00 0x00]
+  Connection: 3
+     0x10 0x11 0x17
+Node 0x23 (35) [Vendor Defined Widget] wcaps 0xF00000: Mono
+Node 0x24 (36) [Volume Knob Widget] wcaps 0x600080: Mono
+Node 0x25 (37) [Audio Input] wcaps 0x100711: Stereo Digital
+  Converter: stream=0, channel=0
+  PCM:
+    rates [0x560]: 44100 48000 96000 192000
+    bits [0xE]: 16 20 24
+    formats [0x5]: PCM AC3
+  Connection: 1
+     0x26
+Node 0x26 (38) [Pin Complex] wcaps 0x400681: Stereo Digital
+  Pincap 0x00000024: IN Detect
+  Pin Default 0x40F001F0: [None] Other at Ext N/A
+    Conn = Unknown, Color = Unknown
+    DefAssociation = 0xF, Sequence = 0x0
+Pin-ctls: 0x00: VREF_HIZ
