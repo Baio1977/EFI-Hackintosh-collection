@@ -1,0 +1,63 @@
+Device path: PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x1)/VenMsg(A9003FEB-D806-41DB-A491-5405FEEF46C3,00000000)
+Address: 0x0
+
+Codec: AMD (Unknown)
+AFG Function Id: 0x1 (unsol 0)
+Vendor Id: 0x1002AA01
+Revision Id: 0x100800
+Default PCM:
+    rates [0x70]: 32000 44100 48000
+    bits [0x2]: 16
+    formats [0x1]: PCM
+Default Amp-In caps: N/A
+Default Amp-Out caps: N/A
+Node 0x02 (2) [Audio Output] wcaps 0x221: Stereo Digital
+  Converter: stream=0, channel=0
+Node 0x03 (3) [Pin Complex] wcaps 0x400381: Stereo Digital
+  Pincap 0x00000094: OUT Detect HDMI
+  Pin Default 0x185600F0: [Jack] Digital Out at Int Special
+    Conn = Digital, Color = Unknown
+    DefAssociation = 0xF, Sequence = 0x0
+Pin-ctls: 0x40: OUT VREF_HIZ
+  Connection: 1
+     0x02
+Node 0x04 (4) [Audio Output] wcaps 0x221: Stereo Digital
+  Converter: stream=0, channel=0
+Node 0x05 (5) [Pin Complex] wcaps 0x400381: Stereo Digital
+  Pincap 0x00000094: OUT Detect HDMI
+  Pin Default 0x185600F0: [Jack] Digital Out at Int Special
+    Conn = Digital, Color = Unknown
+    DefAssociation = 0xF, Sequence = 0x0
+Pin-ctls: 0x40: OUT VREF_HIZ
+  Connection: 1
+     0x04
+Node 0x06 (6) [Audio Output] wcaps 0x221: Stereo Digital
+  Converter: stream=0, channel=0
+Node 0x07 (7) [Pin Complex] wcaps 0x400381: Stereo Digital
+  Pincap 0x00000094: OUT Detect HDMI
+  Pin Default 0x185600F0: [Jack] Digital Out at Int Special
+    Conn = Digital, Color = Unknown
+    DefAssociation = 0xF, Sequence = 0x0
+Pin-ctls: 0x40: OUT VREF_HIZ
+  Connection: 1
+     0x06
+Node 0x08 (8) [Audio Output] wcaps 0x221: Stereo Digital
+  Converter: stream=0, channel=0
+Node 0x09 (9) [Pin Complex] wcaps 0x400381: Stereo Digital
+  Pincap 0x00000094: OUT Detect HDMI
+  Pin Default 0x185600F0: [Jack] Digital Out at Int Special
+    Conn = Digital, Color = Unknown
+    DefAssociation = 0xF, Sequence = 0x0
+Pin-ctls: 0x40: OUT VREF_HIZ
+  Connection: 1
+     0x08
+Node 0x0A (10) [Audio Output] wcaps 0x221: Stereo Digital
+  Converter: stream=0, channel=0
+Node 0x0B (11) [Pin Complex] wcaps 0x400381: Stereo Digital
+  Pincap 0x00000094: OUT Detect HDMI
+  Pin Default 0x185600F0: [Jack] Digital Out at Int Special
+    Conn = Digital, Color = Unknown
+    DefAssociation = 0xF, Sequence = 0x0
+Pin-ctls: 0x40: OUT VREF_HIZ
+  Connection: 1
+     0x0A
